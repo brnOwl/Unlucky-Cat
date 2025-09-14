@@ -35,6 +35,11 @@
       "id": "6",
       "name": "firstMissionDone",
       "symbol": "var_firstmissiondone"
+    },
+    {
+      "id": "7",
+      "name": "guyRetreated",
+      "symbol": "var_guyretreated_0"
     }
   ]
 }

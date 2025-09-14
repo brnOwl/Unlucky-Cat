@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "c3deec01-2635-4c13-84a2-5a0caa8e20cf",
-  "_index": 3,
-  "name": "Beach NE 1",
+  "id": "4a85ac28-5765-43af-93e9-7ef273485275",
+  "_index": 8,
+  "name": "Beach NE 2",
   "backgroundId": "503928de-80ec-447b-bf69-15553017785b",
   "tilesetId": "",
   "width": 44,
@@ -12,12 +12,12 @@
   "spritePaletteIds": [],
   "collisions": "001e4+0f2e+0029+0f3+0029+0f3+0029+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 872,
-  "y": 640,
+  "symbol": "scene_9",
+  "x": 888,
+  "y": 1136,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "red"
+  "labelColor": "yellow"
 }

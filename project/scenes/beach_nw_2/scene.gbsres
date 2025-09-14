@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "ae9f2dd7-7720-4f51-b14d-9b5f2ea37e0b",
-  "_index": 2,
-  "name": "Beach NW 1",
+  "id": "d5e80539-9342-45ba-8541-391bea8cdb75",
+  "_index": 7,
+  "name": "Beach NW 2",
   "backgroundId": "50655c84-edfa-4d3e-8b27-2ced10ad0d31",
   "tilesetId": "",
   "width": 44,
@@ -12,12 +12,12 @@
   "spritePaletteIds": [],
   "collisions": "001e4+0f2d+00!0f4+00!0f4+003+0f8+0015+0f2+00!0f4+008+0f8+0015+0f3+00c+0f4+0019+0f5+0028+0f4+0028+0f4+0028+0f!002+0f4+0025+0f!002+0f4+0025+0f!002+0f4+0025+0f!002b+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
+  "symbol": "scene_8",
   "x": 520,
-  "y": 640,
+  "y": 1136,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "red"
+  "labelColor": "yellow"
 }

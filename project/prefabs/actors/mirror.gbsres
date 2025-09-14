@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "01eb92d8-78a6-4599-8c27-7f030b099b2e",
+  "name": "Mirror",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
