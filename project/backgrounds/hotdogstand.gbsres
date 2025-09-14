@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a827e7dd-9e02-45ee-bc5d-8d480adb8c0a",
+  "name": "HotDogStand",
+  "symbol": "bg_hotdogstand",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "HotDogStand.png",
+  "tileColors": "",
+  "autoColor": false
+}

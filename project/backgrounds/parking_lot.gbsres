@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5f32e099-8691-418f-9caf-d68e5412dc55",
+  "name": "Parking Lot",
+  "symbol": "bg_parking_lot",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "Parking Lot.png",
+  "tileColors": "",
+  "autoColor": false
+}

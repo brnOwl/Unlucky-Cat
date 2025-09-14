@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "0f3d4b39-aae9-451b-80a3-3666f5d0f6ea",
+  "_index": 6,
+  "name": "Beach SE 1",
+  "backgroundId": "a827e7dd-9e02-45ee-bc5d-8d480adb8c0a",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002b+0f!002b+0f!0029+0f3+0029+0f3+002a+0f2+002b+0f!002b+0f!002a+0f2+002a+0f2+002a+0f2+002b+0f!002b+0f!0029+0f3+0029+0f3+0028+0f4+0028+0f4+002b+0f!0029+0f3+0023+0f3+003+0f3+0022+0f4+003+0f3+001f+0f7+004+0f2e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 872,
+  "y": 848,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

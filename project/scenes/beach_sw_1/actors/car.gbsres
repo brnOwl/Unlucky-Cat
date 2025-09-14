@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "d8e4c874-d734-4af8-8144-0be568798066",
+  "name": "Car",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "prefabId": "d855f709-e1a4-4a11-afc9-a56f2d6f4c9a",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "6c01fee9-45d6-4730-8814-0e79cc2c9c5a": {
+      "id": "6c01fee9-45d6-4730-8814-0e79cc2c9c5a",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      }
+    },
+    "07ebd77d-a0b6-484f-a5f6-21ab9bf47b10": {
+      "id": "07ebd77d-a0b6-484f-a5f6-21ab9bf47b10",
+      "args": {
+        "value": {
+          "type": "true"
+        }
+      }
+    },
+    "4f0d59df-edae-47c2-a0bb-9e5c80e439fe": {
+      "id": "4f0d59df-edae-47c2-a0bb-9e5c80e439fe",
+      "args": {
+        "script": "if ($carAlarm == false)\n{\n"
+      }
+    }
+  },
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 7,
+  "_index": 1
+}

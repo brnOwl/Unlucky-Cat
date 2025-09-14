@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "50b809fb-c47a-4cf4-913e-7c270aaccd17",
+  "_index": 5,
+  "name": "Beach SW 1",
+  "backgroundId": "5f32e099-8691-418f-9caf-d68e5412dc55",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f17+0015+0f17+002a+0f2+002a+0f2+002a+0f2+002a+0f2+002a+0f2+002a+0f2+002a+0f2+002a+0f17+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 520,
+  "y": 848,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

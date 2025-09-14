@@ -1,0 +1,40 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "carAlarm",
+      "symbol": "var_caralarm"
+    },
+    {
+      "id": "1",
+      "name": "trashUnleashed",
+      "symbol": "var_trashunleashed"
+    },
+    {
+      "id": "2",
+      "name": "birdsActivated",
+      "symbol": "var_birdsactivated"
+    },
+    {
+      "id": "3",
+      "name": "gotBirdLure",
+      "symbol": "var_gotbirdlure"
+    },
+    {
+      "id": "4",
+      "name": "placedBirdLure",
+      "symbol": "var_placedbirdlure"
+    },
+    {
+      "id": "5",
+      "name": "guyRetreated",
+      "symbol": "var_guyretreated"
+    },
+    {
+      "id": "6",
+      "name": "firstMissionDone",
+      "symbol": "var_firstmissiondone"
+    }
+  ]
+}
