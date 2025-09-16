@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "ab6f9e98-0ccc-48a7-8caa-6af1364acfba",
+  "name": "Food Scrap",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_9",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "3"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "e2473b68-7523-44dc-b9ad-7255c1b9cb07"
+          }
+        ],
+        "false": []
+      },
+      "id": "a8cb6fec-77d7-4d09-bdbd-fba1485c8aec"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 18,
+  "_index": 3
+}

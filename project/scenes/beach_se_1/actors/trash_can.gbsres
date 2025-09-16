@@ -13,7 +13,55 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "5daf7753-1586-4964-b462-17d8e4205eb4": {
+      "id": "5daf7753-1586-4964-b462-17d8e4205eb4",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": false
+      }
+    },
+    "aaf5abe6-1ab9-4021-b181-d6bd946b550c": {
+      "id": "aaf5abe6-1ab9-4021-b181-d6bd946b550c",
+      "args": {
+        "text": [
+          "\"I can't mess with\nthis while I'm"
+        ],
+        "__section": "text"
+      }
+    },
+    "181aacde-4205-427f-909c-0090fdf460c9": {
+      "id": "181aacde-4205-427f-909c-0090fdf460c9",
+      "args": {
+        "text": [
+          "supervised"
+        ]
+      }
+    },
+    "7a0006c7-966c-4f05-abd8-1850d06d57c3": {
+      "id": "7a0006c7-966c-4f05-abd8-1850d06d57c3",
+      "args": {
+        "text": [
+          "Hell yeah, food\neverywhere."
+        ]
+      }
+    },
+    "7def3e37-93ec-4806-9a67-509d252f37ff": {
+      "id": "7def3e37-93ec-4806-9a67-509d252f37ff",
+      "args": {
+        "variable": "1"
+      }
+    }
+  },
   "symbol": "actor_1",
   "script": [],
   "startScript": [],

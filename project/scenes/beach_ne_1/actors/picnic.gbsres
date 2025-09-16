@@ -13,7 +13,57 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "a5913c3e-8037-4b85-87d0-2e7534148be7": {
+      "id": "a5913c3e-8037-4b85-87d0-2e7534148be7",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "3"
+          }
+        },
+        "__collapseElse": false
+      }
+    },
+    "379ff69d-2a75-483a-961e-8406174e53b9": {
+      "id": "379ff69d-2a75-483a-961e-8406174e53b9",
+      "args": {
+        "text": [
+          "Those birds can\ngive this jerk"
+        ]
+      }
+    },
+    "0c17caf5-d39f-40f2-b8a0-ea190f9b1ae3": {
+      "id": "0c17caf5-d39f-40f2-b8a0-ea190f9b1ae3",
+      "args": {
+        "text": [
+          "hell, if I\nmotivate them..."
+        ]
+      }
+    },
+    "fce3179d-c265-4452-8439-59bc79fd544e": {
+      "id": "fce3179d-c265-4452-8439-59bc79fd544e",
+      "args": {
+        "text": [
+          "This should\nmotivate them"
+        ]
+      }
+    },
+    "98947d6f-d152-427a-ab4d-2bf5ee0e00a6": {
+      "id": "98947d6f-d152-427a-ab4d-2bf5ee0e00a6",
+      "args": {
+        "variable": "4"
+      }
+    },
+    "dc3e9a2d-8c83-497e-836d-274c22256e6e": {
+      "id": "dc3e9a2d-8c83-497e-836d-274c22256e6e",
+      "args": {
+        "variable": "5"
+      }
+    }
+  },
   "symbol": "actor_27",
   "script": [],
   "startScript": [],

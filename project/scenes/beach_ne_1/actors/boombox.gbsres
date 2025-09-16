@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "b8bd1b45-d6cc-4146-959a-d9a83f788f63",
-  "name": "",
+  "name": "Boombox",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
