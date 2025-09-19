@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "81c55633-3935-4332-a418-3d02430b856e",
+  "_index": 13,
+  "name": "PPatch NW",
+  "backgroundId": "50655c84-edfa-4d3e-8b27-2ced10ad0d31",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 2061.454606197138,
+  "y": 616.0000206409807,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

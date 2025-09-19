@@ -1,0 +1,73 @@
+{
+  "_resourceType": "actor",
+  "id": "7b78a9d2-70d9-4505-874a-7be58f50dac7",
+  "name": "bird 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "2632f865-d460-4211-a4f5-4ef767b4c36d",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "d12c20a2-4fce-4f99-b6df-b327d5eb0da0": {
+      "id": "d12c20a2-4fce-4f99-b6df-b327d5eb0da0",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        }
+      }
+    },
+    "a8cbafc8-38ed-45cc-a9a7-430c0bc5d588": {
+      "id": "a8cbafc8-38ed-45cc-a9a7-430c0bc5d588",
+      "args": {
+        "actorId": "6b0fb59c-7f9a-4b35-86e3-407c73db05f0"
+      }
+    },
+    "60493c06-6de0-4bd5-b861-9e485ef9f731": {
+      "id": "60493c06-6de0-4bd5-b861-9e485ef9f731",
+      "args": {
+        "actorId": "36d7df52-1a9d-4bf4-8f50-fa7b2473aef8"
+      }
+    },
+    "8292db29-5fca-42e1-8fd1-f186bd18065f": {
+      "id": "8292db29-5fca-42e1-8fd1-f186bd18065f",
+      "args": {
+        "actorId": "40f015a4-6eef-4558-bd59-bf22e8fd8479"
+      }
+    },
+    "923c165f-942c-43cf-8e6a-c9c744583139": {
+      "id": "923c165f-942c-43cf-8e6a-c9c744583139",
+      "args": {
+        "actorId": "d76052ac-96bd-414e-a325-276b444a5f5c"
+      }
+    },
+    "6035b9b6-b82b-4a8b-baab-532a477080ee": {
+      "id": "6035b9b6-b82b-4a8b-baab-532a477080ee",
+      "args": {
+        "actorId": "7b78a9d2-70d9-4505-874a-7be58f50dac7"
+      }
+    },
+    "634c601b-1367-48c3-b071-a1ba0235dcec": {
+      "id": "634c601b-1367-48c3-b071-a1ba0235dcec",
+      "args": {
+        "actorId": "e4ebc6ab-8da8-429c-bda8-e447ea47920f"
+      }
+    }
+  },
+  "symbol": "actor_6",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 12,
+  "y": 17,
+  "_index": 5
+}

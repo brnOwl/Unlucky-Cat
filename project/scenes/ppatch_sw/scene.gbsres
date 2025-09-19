@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "8d227f63-496d-43b7-a435-c184279c8309",
+  "_index": 15,
+  "name": "PPatch SW",
+  "backgroundId": "50655c84-edfa-4d3e-8b27-2ced10ad0d31",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 2064,
+  "y": 816,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

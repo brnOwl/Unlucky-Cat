@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "beb9725d-888a-46ea-8bce-6c276584a033",
+  "_index": 10,
+  "name": "Long Hallway",
+  "backgroundId": "503928de-80ec-447b-bf69-15553017785b",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003c8+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 832,
+  "y": 2248,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "orange"
+}

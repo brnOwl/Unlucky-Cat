@@ -31,7 +31,8 @@
       "id": "379ff69d-2a75-483a-961e-8406174e53b9",
       "args": {
         "text": [
-          "Those birds can\ngive this jerk"
+          "Those birds can\ngive this jerk",
+          "hell, if I\nmotivate them..."
         ]
       }
     },
@@ -39,7 +40,7 @@
       "id": "0c17caf5-d39f-40f2-b8a0-ea190f9b1ae3",
       "args": {
         "text": [
-          "hell, if I\nmotivate them..."
+          ""
         ]
       }
     },
@@ -61,6 +62,21 @@
       "id": "dc3e9a2d-8c83-497e-836d-274c22256e6e",
       "args": {
         "variable": "5"
+      }
+    },
+    "7097c3d5-d2bb-4e1c-a88a-2ee484bef72b": {
+      "id": "7097c3d5-d2bb-4e1c-a88a-2ee484bef72b",
+      "args": {
+        "actorId": "player",
+        "vectorX": "L0",
+        "vectorY": "L1"
+      }
+    },
+    "008e14a6-846c-446e-ad04-50144a768c67": {
+      "id": "008e14a6-846c-446e-ad04-50144a768c67",
+      "args": {
+        "actorId": "player",
+        "direction": "L2"
       }
     }
   },

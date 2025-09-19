@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "cafff489-c866-4f0d-a8d1-f8958a145a1b",
+  "name": "got_item",
+  "symbol": "song_got_item",
+  "filename": "got_item.uge",
+  "settings": {},
+  "type": "uge"
+}

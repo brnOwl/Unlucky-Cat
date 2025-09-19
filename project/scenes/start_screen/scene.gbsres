@@ -89,16 +89,21 @@
             "children": {
               "true0": [
                 {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "6ed6365d-8611-46f4-8b4f-902d649c9ad9"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "50b809fb-c47a-4cf4-913e-7c270aaccd17",
+                    "sceneId": "ae9f2dd7-7720-4f51-b14d-9b5f2ea37e0b",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 18
                     },
                     "y": {
                       "type": "number",
-                      "value": 7
+                      "value": 16
                     },
                     "direction": "right",
                     "fadeSpeed": "2",
@@ -135,5 +140,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "labelColor": "purple"
+  "labelColor": "purple",
+  "playerSpriteSheetId": ""
 }

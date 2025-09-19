@@ -1,0 +1,60 @@
+{
+  "_resourceType": "actor",
+  "id": "073322aa-dfc8-4c98-8ec6-44d97b2a0eb9",
+  "name": "Unlucky Guy - Beach 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_22",
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "5b732662-0013-457b-9a08-672972aa32f3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "bd50585f-8f17-4370-9359-51c4388760c2",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4451345d-cf72-41f4-8500-9e9ef856dd78"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "7abadd97-99a2-4916-a8d6-2d26911f658c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 12,
+  "_index": 6
+}

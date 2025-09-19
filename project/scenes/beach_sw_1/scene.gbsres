@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!0015+0f!0015+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f2c+",
+  "collisions": "0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f2c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 520,
@@ -19,5 +19,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "red"
+  "labelColor": "red",
+  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144"
 }

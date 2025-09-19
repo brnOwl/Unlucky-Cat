@@ -15,9 +15,79 @@
   "symbol": "scene_7",
   "x": 872,
   "y": 848,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "5a35fca2-6900-48a2-9b4b-3d20393e9de7"
+            },
+            "id": "3a3e932b-e687-4834-ad6b-7f612a2e7a5c"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "936def82-5d5d-4cba-a918-42bd6aca1102"
+            },
+            "id": "6924bdc1-d6eb-41c0-85ea-123a4b928a11"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3a1a4bac-89d0-4d98-914b-adfccf16c8d0"
+            },
+            "id": "662ad188-c2c6-4f8e-bbd9-54393d08376b"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "5d81bc83-b006-4212-b166-a175841baa4e"
+            },
+            "id": "20149325-b8aa-4b51-bd41-fa047cb0d3de"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "73aea4b6-62fa-417f-b5b3-ead0a202f069"
+            },
+            "id": "bd1e5a69-9aa7-4c42-b292-3b7c41b7ec32"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "71bfa497-27c9-458b-b351-5bf291c60e5d"
+            },
+            "id": "f5c177be-769a-4be2-a86c-d54cab6d14a2"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "ab6f9e98-0ccc-48a7-8caa-6af1364acfba"
+            },
+            "id": "43f23fbc-53ee-4b30-8fb6-8c627fc866d7"
+          }
+        ],
+        "false": []
+      },
+      "id": "a0f0fac5-ed7f-4598-af87-93068d9de25b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "red"
+  "labelColor": "red",
+  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144"
 }

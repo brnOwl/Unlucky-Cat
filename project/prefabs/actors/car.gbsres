@@ -42,6 +42,29 @@
               "__collapse": true
             },
             "id": "07ebd77d-a0b6-484f-a5f6-21ab9bf47b10"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "319b0761-2b03-4839-8c5e-30074818f837"
           }
         ],
         "false": []

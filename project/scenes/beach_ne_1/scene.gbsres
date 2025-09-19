@@ -15,9 +15,86 @@
   "symbol": "scene_4",
   "x": 872,
   "y": 640,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "d9cc35ff-b6f4-474d-80a8-96c5a3e35a2f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "71b68aab-d6eb-485b-bc26-03bd4200c272"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7b815a2e-a59d-43a3-96f3-6c652730a522",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6dc31420-b04d-42af-bc71-41661a98542c"
+          }
+        ],
+        "false": []
+      },
+      "id": "8cd0e681-94b9-4df3-8e65-5dfc8f338afc"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "6"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "bfb568e4-84d6-4e06-8bfa-fdb6d5005a82"
+            },
+            "id": "49a59571-7492-4389-a774-ae41140794f8"
+          }
+        ],
+        "false": []
+      },
+      "id": "6f1b5661-bcd9-4d30-945c-7c986c45bf44"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "red"
+  "labelColor": "red",
+  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "autoFadeEventCollapse": false
 }

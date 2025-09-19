@@ -4,7 +4,7 @@
   "name": "Picnic",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "2e1f9215-12e9-4184-a6b9-32e31f97da12",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -48,30 +48,6 @@
               "__collapse": true
             },
             "id": "379ff69d-2a75-483a-961e-8406174e53b9"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "",
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "0c17caf5-d39f-40f2-b8a0-ea190f9b1ae3"
           }
         ],
         "false": [
@@ -120,6 +96,31 @@
               "__collapse": true
             },
             "id": "dc3e9a2d-8c83-497e-836d-274c22256e6e"
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "7e6b498d-be5e-4500-bbec-78134252a7d7"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0fa1406f-8051-4d39-b942-0bc3650e474d",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "7df262bf-756c-493a-9f9f-e1c5166b15a3"
           }
         ]
       },

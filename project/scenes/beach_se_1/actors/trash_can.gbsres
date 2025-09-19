@@ -34,7 +34,8 @@
       "id": "aaf5abe6-1ab9-4021-b181-d6bd946b550c",
       "args": {
         "text": [
-          "\"I can't mess with\nthis while I'm"
+          "\"I can't mess with\nthis while I'm",
+          "supervised."
         ],
         "__section": "text"
       }
@@ -43,7 +44,7 @@
       "id": "181aacde-4205-427f-909c-0090fdf460c9",
       "args": {
         "text": [
-          "supervised"
+          ""
         ]
       }
     },

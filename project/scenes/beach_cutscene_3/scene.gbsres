@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "7b815a2e-a59d-43a3-96f3-6c652730a522",
+  "_index": 9,
+  "name": "Beach Cutscene 3",
+  "backgroundId": "503928de-80ec-447b-bf69-15553017785b",
+  "tilesetId": "",
+  "width": 44,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+0f2e+0029+0f3+0029+0f3+0029+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 600,
+  "y": 1768,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6b2e4a93-ad81-4517-bc57-8f7309a31f5a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "ff7cd150-ec49-4f53-83db-653adfa395df"
+    },
+    {
+      "command": "EVENT_SCENE_POP_ALL_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "6e0292f2-1d75-471c-8780-4336699a45fb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "blue"
+}

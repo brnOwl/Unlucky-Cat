@@ -4,7 +4,7 @@
   "name": "Bird",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -27,7 +27,7 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -35,7 +35,10 @@
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
+              "text": [
+                "They're not \nmotivated by",
+                "anything but food"
+              ],
               "__section": "text",
               "avatarId": "",
               "minHeight": 4,
@@ -52,40 +55,18 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "5c7096be-17a5-4d31-89c9-28e287b2cb97"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "",
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "50af0000-01c1-4b77-b81c-b6aaa69c714f"
           }
         ],
         "false": [
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
+              "text": [
+                "They must smell\nfood nearby..."
+              ],
               "__section": "text",
               "avatarId": "",
               "minHeight": 4,
@@ -102,7 +83,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "c7f9deb8-9fbe-41f4-bca8-cfe1ab2be994"
           },
@@ -114,7 +95,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d12c20a2-4fce-4f99-b6df-b327d5eb0da0"
           },
@@ -122,9 +103,44 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8292db29-5fca-42e1-8fd1-f186bd18065f"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a8cbafc8-38ed-45cc-a9a7-430c0bc5d588"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "60493c06-6de0-4bd5-b861-9e485ef9f731"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "923c165f-942c-43cf-8e6a-c9c744583139"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6035b9b6-b82b-4a8b-baab-532a477080ee"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "634c601b-1367-48c3-b071-a1ba0235dcec"
           }
         ]
       },

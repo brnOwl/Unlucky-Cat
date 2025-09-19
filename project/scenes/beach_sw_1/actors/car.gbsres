@@ -42,6 +42,14 @@
       "args": {
         "script": "if ($carAlarm == false)\n{\n"
       }
+    },
+    "319b0761-2b03-4839-8c5e-30074818f837": {
+      "id": "319b0761-2b03-4839-8c5e-30074818f837",
+      "args": {
+        "text": [
+          "Car alarm was \nset off"
+        ]
+      }
     }
   },
   "symbol": "actor_0",
@@ -53,5 +61,5 @@
   "hit3Script": [],
   "x": 4,
   "y": 7,
-  "_index": 1
+  "_index": 0
 }

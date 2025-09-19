@@ -1,0 +1,245 @@
+{
+  "_resourceType": "actor",
+  "id": "d0aa92da-b3cd-433d-b0b5-7eef6da7b7e4",
+  "name": "Unlucky Guy - Beach 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I bet I could mess\nwith that hot dog ",
+                "guy's stuff if he \nwasn't there. ",
+                "What could \ndistract him...?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "c98a0ab2-3e4e-47d5-ba76-2bbc079abfb8",
+            "children": {}
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "aff03549-b7c2-435e-b849-0f98be1c0747",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "1750f86a-3d58-473a-ab5f-d99a36ed6ee9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "1"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Now that he's \ngone, what can I",
+                "use to cause\nchaos?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a450fc45-aec5-4c78-91ed-07feebc69079",
+            "children": {}
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "3d135b6d-bec0-49fc-bc63-400f664cc28e",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "e8984469-12f3-407e-b4fa-da70f357c499"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "3"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Surely those birds\ndidn't eat all the",
+                "trash...?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "eec414f3-136d-4d4a-b20a-1b19939697fe",
+            "children": {}
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "1fec6a12-efa1-4223-9e0f-f0be27c7b9bf",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "94990402-ed5d-4802-a817-37363d47f385"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "There's gotta be\nsomewhere I can",
+                "place this food to\nlure those",
+                "birds..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a9ed8786-43b8-4421-ac41-f7361fd41fa3",
+            "children": {}
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "38c30786-e302-4519-a2b6-a6ac88ab0d62",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "a45f527e-e180-4e7d-bd51-d421895a5add"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 15,
+  "_index": 2
+}

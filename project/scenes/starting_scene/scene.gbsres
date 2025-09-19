@@ -17,6 +17,20 @@
   "y": 272,
   "script": [
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "b758a435-ea87-4728-b0da-f280f220448e"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "7920b03a-5662-45af-a308-2038259c255d"
+      },
+      "id": "74ed85a7-1b6b-4150-b1ec-12069c229515"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
