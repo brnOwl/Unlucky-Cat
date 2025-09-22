@@ -49,7 +49,48 @@
       "id": "4451345d-cf72-41f4-8500-9e9ef856dd78"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 42
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "659ead8e-e42e-4ddd-8458-12bf05647146"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "c1594ca7-c0c0-4ab9-b1a6-75edf7af0b27"
+          }
+        ],
+        "false": []
+      },
+      "id": "d16436b3-fad9-4c72-9316-734144f3ec05"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

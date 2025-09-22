@@ -58,7 +58,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I can"
+                "I can :3"
               ],
               "__section": "text",
               "avatarId": "",
@@ -80,29 +80,21 @@
             "id": "1a146a33-1b0f-4429-855a-7a5f13dbe3ac"
           },
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "text": [
-                "BAD END"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "sceneId": "0ca619ec-6060-4a5a-b7aa-d079cf6e63c9",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "id": "afcd0c0c-38ad-4ca3-9148-cc9b4ba8344f"
+            "id": "4b897866-1a95-43f5-915d-34d8605f946b"
           }
         ],
         "false": [

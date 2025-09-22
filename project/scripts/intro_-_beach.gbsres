@@ -8,6 +8,11 @@
   "symbol": "script_1",
   "script": [
     {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "aa0a4a9a-7ff8-477f-8c99-96857b8f43bc"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -64,6 +69,13 @@
               "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
             },
             "id": "c6d2e478-594e-4981-b223-265feb9df906"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "62f520ab-c83c-413e-959f-5ad2fca17a07"
+            },
+            "id": "b9107728-6e1f-49af-86ab-c68063677d16"
           }
         ],
         "false": []

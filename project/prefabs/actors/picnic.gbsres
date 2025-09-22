@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "8ce69b4a-d40e-4515-999a-ce2d9976e7d7",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "",
@@ -21,7 +21,8 @@
             "value": "0"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -266,6 +267,24 @@
             "id": "7e6b498d-be5e-4500-bbec-78134252a7d7"
           },
           {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "9df4d5c1-e01c-4838-aeff-017d1b876193"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f2d5c152-a101-44e6-9fd9-52529e3e9199"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "0fa1406f-8051-4d39-b942-0bc3650e474d",
@@ -282,17 +301,6 @@
               "__collapse": false
             },
             "id": "7df262bf-756c-493a-9f9f-e1c5166b15a3"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_FRAME",
-            "args": {
-              "actorId": "$self$",
-              "frame": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "9df4d5c1-e01c-4838-aeff-017d1b876193"
           }
         ]
       },
@@ -307,7 +315,8 @@
           "type": "variable",
           "value": "0"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

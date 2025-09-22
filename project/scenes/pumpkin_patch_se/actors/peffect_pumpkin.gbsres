@@ -112,11 +112,11 @@
                     "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb",
                     "x": {
                       "type": "number",
-                      "value": 23
+                      "value": 32
                     },
                     "y": {
                       "type": "number",
-                      "value": 11
+                      "value": 8
                     },
                     "moveType": "horizontal",
                     "useCollisions": false

@@ -77,7 +77,61 @@
               "__collapseElse": true
             },
             "children": {
-              "true": [],
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Yo, I'm gonna get\nsomething real",
+                      "quick, don't go\nanywhere."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a2ef5c86-311e-46ba-9f6e-05731bdecff3"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "19",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "d5e38303-1524-43ef-be15-1fc273f11166"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "8fb22f5e-d860-4621-b379-921886ede43f",
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "2558f72f-29d6-47ff-91c4-bd6f8cb04c4c"
+                }
+              ],
               "false": []
             },
             "id": "ced6ba24-70f4-4ece-8d17-6400ca1d605a"

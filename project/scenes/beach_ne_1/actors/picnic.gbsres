@@ -145,7 +145,7 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "6"
+          "value": "4"
         }
       }
     },

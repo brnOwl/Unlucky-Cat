@@ -17,6 +17,52 @@
   "symbol": "actor_93",
   "script": [
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Get goin, OMEN!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7415039b-0607-46a4-83eb-2af4fdce8ff3"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "0e2b032e-1ee9-49de-a2c7-e5d4f2d744ca"
+          }
+        ],
+        "false": []
+      },
+      "id": "eafb099f-f419-4236-ac04-0f3d8364c484"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

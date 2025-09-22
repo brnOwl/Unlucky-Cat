@@ -92,7 +92,9 @@
               "text": [
                 "Who is this?????\nYou've got to be",
                 "joking. That \nabsolute manwhore",
-                "who does he think\nhe is??"
+                "who does he think\nhe is??",
+                "Thanks kitty for\nbringing me this.",
+                "No problem :3"
               ],
               "__section": "text",
               "avatarId": "",
@@ -116,14 +118,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "b1ed2e78-b9e5-4dab-a077-7f0e31db0955",
+              "sceneId": "1dd48c87-8fae-4b1a-b058-5e11c51b3976",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 18
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 2
               },
               "direction": "",
               "fadeSpeed": "2"

@@ -216,8 +216,8 @@
           "type": "number",
           "value": 4
         },
-        "moveType": "horizontal",
-        "useCollisions": false
+        "moveType": "vertical",
+        "useCollisions": true
       },
       "id": "6e177d41-772c-4f1c-a21e-6803a59a3d7b"
     },
@@ -273,8 +273,8 @@
           "type": "number",
           "value": 4
         },
-        "moveType": "horizontal",
-        "useCollisions": false
+        "moveType": "vertical",
+        "useCollisions": true
       },
       "id": "f073ed30-4433-428c-b365-71539f955ee0"
     },

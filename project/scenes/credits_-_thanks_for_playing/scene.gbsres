@@ -26,6 +26,13 @@
       "id": "3a9eca3a-02ad-44cb-b572-1524d8f85d6d"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "7920b03a-5662-45af-a308-2038259c255d"
+      },
+      "id": "bf707fb2-3c33-406c-a2c4-dfe7a689791f"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

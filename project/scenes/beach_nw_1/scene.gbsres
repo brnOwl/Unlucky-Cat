@@ -26,7 +26,8 @@
             "value": "5"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -41,6 +42,30 @@
         "false": []
       },
       "id": "2b472cdf-3321-4f2a-aed1-2a539f8a1155"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "c0c24640-9439-4e6c-be0e-0eedf66a8322"
+          }
+        ],
+        "false": []
+      },
+      "id": "bafda2d7-7384-42bf-881b-7b3808d83c32"
     }
   ],
   "playerHit1Script": [],

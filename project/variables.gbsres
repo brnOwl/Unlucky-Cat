@@ -107,6 +107,11 @@
       "symbol": "var_gotmarksphone"
     },
     {
+      "id": "21",
+      "name": "LookedAround",
+      "symbol": "var_lookedaround"
+    },
+    {
       "id": "9906bcfe-8dc3-4754-9b5e-6091f8818908__L0",
       "name": "markGiven",
       "symbol": "var_markgiven"
@@ -115,11 +120,6 @@
       "id": "d4a4590b-330e-4e40-be28-f30ad981e190__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
-    },
-    {
-      "id": "21",
-      "name": "LookedAround",
-      "symbol": "var_lookedaround"
     }
   ]
 }

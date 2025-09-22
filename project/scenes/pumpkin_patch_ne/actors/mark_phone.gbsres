@@ -17,6 +17,53 @@
   "symbol": "actor_87",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "cafff489-c866-4f0d-a8d1-f8958a145a1b"
+      },
+      "id": "884e464b-7d74-4e45-9c5f-035f16fb16f9"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "59e351a7-9a63-4996-bdfb-c4dc6d59eabe"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "1ecd806f-8595-40c9-97bb-d824e0f9bebb"
+      },
+      "id": "f0643f90-4cd6-4111-96c7-7b117f62c3b7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Got Mark's phone."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "55f52752-5678-413c-a4ec-e1802355b19a"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

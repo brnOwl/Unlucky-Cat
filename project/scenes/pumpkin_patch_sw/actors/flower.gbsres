@@ -23,10 +23,61 @@
           "type": "not",
           "value": {
             "type": "variable",
+            "value": "13"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pretty flower...\n:3"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dda37dad-619c-454d-a031-04a1053e15c7"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "8ffb04f9-55f9-429e-a327-f10b70c876c2"
+          }
+        ],
+        "false": []
+      },
+      "id": "552f5090-872c-41e1-b5f6-c0753c8500d5"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
             "value": "14"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -79,6 +130,16 @@
               "useCollisions": true
             },
             "id": "b53b9c73-def7-4360-803c-ffa8f18798b0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "0d437cb2-661e-430a-92f4-febea8fe4747"
           }
         ],
         "false": [

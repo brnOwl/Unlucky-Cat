@@ -42,16 +42,21 @@
       "id": "fd92be56-74db-4186-92e2-3b39df021231"
     },
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "a7093444-d7d0-4b52-974e-6a636bcb8c90"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "50b809fb-c47a-4cf4-913e-7c270aaccd17",
         "x": {
           "type": "number",
-          "value": 29
+          "value": 22
         },
         "y": {
           "type": "number",
-          "value": 6
+          "value": 11
         },
         "direction": "",
         "fadeSpeed": "2"

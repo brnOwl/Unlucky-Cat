@@ -42,6 +42,28 @@
             "id": "e2473b68-7523-44dc-b9ad-7255c1b9cb07"
           },
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "cafff489-c866-4f0d-a8d1-f8958a145a1b"
+            },
+            "id": "4787d1e7-22d4-4eb1-835b-4def7f7136b3"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "f477a336-ee5f-4435-8369-61d1f1222091"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "62f520ab-c83c-413e-959f-5ad2fca17a07"
+            },
+            "id": "401ec6e1-b6e3-49f7-8b56-314a229918e6"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

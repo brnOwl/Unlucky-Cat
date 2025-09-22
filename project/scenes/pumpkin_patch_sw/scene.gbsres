@@ -125,6 +125,36 @@
         "false": []
       },
       "id": "e49d2d2b-80a8-488d-9258-5e11e3977f67"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "16"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd"
+            },
+            "id": "8b16c692-72e8-4984-9b38-b332cfdb0271"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "17ed7b21-b77b-4d3c-876a-8f1df6c7dcba"
+            },
+            "id": "79202637-f0e1-4cb2-97b4-88df674feebd"
+          }
+        ],
+        "false": []
+      },
+      "id": "c70f226d-4ce2-45d7-aff3-32733d615755"
     }
   ],
   "playerHit1Script": [],
