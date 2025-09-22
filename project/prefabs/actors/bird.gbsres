@@ -4,7 +4,7 @@
   "name": "Bird",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "8af019f6-2d7d-4b8b-ada8-d03b378318e5",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -88,6 +88,13 @@
             "id": "c7f9deb8-9fbe-41f4-bca8-cfe1ab2be994"
           },
           {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2"
+            },
+            "id": "4d9ebd28-01de-4ba9-b1f7-280430072605"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "0",
@@ -103,44 +110,81 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "8292db29-5fca-42e1-8fd1-f186bd18065f"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "a8cbafc8-38ed-45cc-a9a7-430c0bc5d588"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "60493c06-6de0-4bd5-b861-9e485ef9f731"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "923c165f-942c-43cf-8e6a-c9c744583139"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "6035b9b6-b82b-4a8b-baab-532a477080ee"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "634c601b-1367-48c3-b071-a1ba0235dcec"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": "2"
+            },
+            "id": "f37a177a-e418-4b74-ab41-399ee4267f0b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They take off!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c7584fa6-aef2-45ec-9c2a-2d0b3bcb2203"
           }
         ]
       },

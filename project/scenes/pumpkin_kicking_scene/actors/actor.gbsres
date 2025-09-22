@@ -1,0 +1,139 @@
+{
+  "_resourceType": "actor",
+  "id": "c9ffefd7-b6ae-4860-aee0-fc61f57c4fed",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c3a47ab8-4fb3-43b8-9c43-87e4a3d338f2",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_79",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "9b0c5214-5ef6-4cd8-9a04-3147f9a4296f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WOAH pumpkin..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ab84a5f6-b18a-4e52-b018-409854aceef1"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "95221a37-e8d8-4b70-a697-0bdb66722f89"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hello little\nkitty!",
+                "I'm sorry, but\nI don't think",
+                "I can understand\nyou..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "331bbc50-27b7-4d93-bed5-6e009b9e2fe5"
+          }
+        ]
+      },
+      "id": "ba0213a4-eaa4-4d1c-adf5-4609debf412e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "8985b57b-6dce-4698-992b-9f36bfd01143"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255,
+        "__collapse": true
+      },
+      "id": "01285c3d-beb1-45af-8e60-8f46b4cf6fe1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 7,
+  "_index": 0
+}

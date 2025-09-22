@@ -4,9 +4,9 @@
   "name": "bird 5",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "8af019f6-2d7d-4b8b-ada8-d03b378318e5",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,13 +15,40 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_19",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Squack, *munch*,\nsquack"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f673a785-bde1-4674-9648-00cdecba12ae"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 22,
-  "y": 13,
+  "x": 9,
+  "y": 12,
   "_index": 7
 }

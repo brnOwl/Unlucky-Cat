@@ -1,0 +1,65 @@
+{
+  "_resourceType": "script",
+  "id": "6cc9f4f3-c2d4-48e1-832f-96cd040f3861",
+  "name": "Intro - Beach",
+  "description": "This can be put where the beginning of the game starts",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "8"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "f2b8489d-e839-496b-9275-edabc86965b5"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Another day, \nanother misfortune"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "12867d8d-441e-44b1-8e20-8b3bbb793782"
+          }
+        ],
+        "false": []
+      },
+      "id": "64db7281-0edb-4148-8b80-38ca40581ffd"
+    }
+  ]
+}

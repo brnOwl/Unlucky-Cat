@@ -1,0 +1,81 @@
+{
+  "_resourceType": "script",
+  "id": "aaeb988b-2772-42c1-8a06-67505c76505c",
+  "name": "Debugger - Beach",
+  "description": "Use this script to debug certain stages of the stage",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "352a06bc-453f-4b9e-ab14-6c0fcf60c066"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "24ad5c62-7114-40ed-9379-80385329c54b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f7aa7c1b-ed32-4104-8301-89ecb1e12c9d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f630a5b8-55ea-46f7-81bc-8707d27c19a4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "badff7b2-c847-4075-b0fb-92da3ab855a2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "a7cd436f-5977-4d4c-b3f1-52396561ce36"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "98c987c2-e295-4ccd-9ee3-0c4854627c9a"
+    }
+  ]
+}

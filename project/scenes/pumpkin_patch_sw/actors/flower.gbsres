@@ -1,0 +1,116 @@
+{
+  "_resourceType": "actor",
+  "id": "f27846c0-f0ec-4f1a-9d49-01a0cf2a6e3a",
+  "name": "Flower",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4b9a9a7a-d2e5-4450-8009-b64abaf167fb",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_68",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "14"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "OH NO THE FLOWERS"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d4a4928f-5ef2-45b8-8beb-a3e4edbd01e7"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "73e4d30e-1656-4341-b234-2da4d629267b",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "moveType": "vertical",
+              "useCollisions": true
+            },
+            "id": "b53b9c73-def7-4360-803c-ffa8f18798b0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The flower is \nhanging on by",
+                "a thread."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6489cb54-915e-4781-99a1-fba0e80953ab"
+          }
+        ]
+      },
+      "id": "a69066d2-4a32-4dec-9848-8d9f8191afe1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 6,
+  "_index": 5
+}

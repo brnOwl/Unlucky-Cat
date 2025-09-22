@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "7ec3f30d-547e-4ff0-9f20-3f14a4a567d6",
+  "name": "pumpkin 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "76cd5b51-d0fe-4cf8-b0e7-bb4bf6f31715",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_32",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The pumpkin is\nbeyond recognition"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "da71902e-fc46-4e72-bfce-f021cf68e14d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pretty pumpkin..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "32e22fc6-1d9c-4371-9a62-2ece0fe24dd7"
+          }
+        ]
+      },
+      "id": "298c8622-b8c1-46af-b4d0-db0f36bbe50e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 14,
+  "_index": 3
+}

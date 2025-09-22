@@ -1,0 +1,240 @@
+{
+  "_resourceType": "actor",
+  "id": "d4a4590b-330e-4e40-be28-f30ad981e190",
+  "name": "animal 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_44",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Yo",
+          "Hello llama",
+          "Wanna get outa\nhere and snack?",
+          "Sure",
+          "VIVA LA REVOLUTION"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "81af5033-29e0-406f-b00a-65f140c0d49f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "15",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "7dce037f-86f3-40f2-b1c9-80c817956a3d"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "d7ac1d2c-822c-4770-988e-7c3f350ebb2e"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "d4a4590b-330e-4e40-be28-f30ad981e190"
+      },
+      "id": "c2249313-024a-4f49-9848-dd8dabec0dd3"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9d705f69-3663-42af-bea3-62127d4fd311"
+      },
+      "id": "1ff95503-2c61-458f-8e1b-cc5b80c21e48"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "d76e1431-5bd6-43f0-991e-51e91236fd6a"
+      },
+      "id": "6c763365-feee-4c2c-ab16-28fd6f8fe599"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "856640ed-69d1-4101-92d2-6bda164ffdef"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "73e4d30e-1656-4341-b234-2da4d629267b",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "moveType": "horizontal",
+        "useCollisions": true
+      },
+      "id": "f5764ddd-3d1e-4bb4-96cc-0ffc9796a0a6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Uh... Looks like\nthe petting zoo",
+          "is closed until\nfurther notice..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3569f936-273c-47e4-91e3-61ecfbcf02c1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "918a205e-61e9-407f-a412-7127f5aa57fd"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "17ed7b21-b77b-4d3c-876a-8f1df6c7dcba",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "c6da9fc1-4852-4bc5-bf9d-a9691c36f373"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ok, it's getting\nworse... ... ..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "28da34ff-12ed-4ee9-95cf-10798cfe4753"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "17ed7b21-b77b-4d3c-876a-8f1df6c7dcba",
+        "x": {
+          "type": "number",
+          "value": 42
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "f073ed30-4433-428c-b365-71539f955ee0"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "17ed7b21-b77b-4d3c-876a-8f1df6c7dcba"
+      },
+      "id": "c70b1c09-e11c-4eb1-8a88-59d4fac18032"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd",
+        "x": {
+          "type": "number",
+          "value": 42
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "6e177d41-772c-4f1c-a21e-6803a59a3d7b"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd"
+      },
+      "id": "ca593ead-1680-4e00-9895-f6fd6fc01a66"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 13,
+  "_index": 2
+}

@@ -34,8 +34,8 @@
       "id": "aaf5abe6-1ab9-4021-b181-d6bd946b550c",
       "args": {
         "text": [
-          "\"I can't mess with\nthis while I'm",
-          "supervised."
+          "\"I can't mess with\nthis with him",
+          "watching me."
         ],
         "__section": "text"
       }
@@ -60,6 +60,16 @@
       "id": "7def3e37-93ec-4806-9a67-509d252f37ff",
       "args": {
         "variable": "1"
+      }
+    },
+    "3140539c-776d-4f79-8dd8-baa5e5dedddd": {
+      "id": "3140539c-776d-4f79-8dd8-baa5e5dedddd",
+      "args": {
+        "actorId": "07f9a27f-3790-4079-8347-14f381071d78",
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
       }
     }
   },

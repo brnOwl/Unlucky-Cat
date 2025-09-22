@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd1c0f65-f230-4bdc-8689-43198851b96a",
+  "name": "BG_FoodStalls_A",
+  "symbol": "bg_bg_foodstalls_a",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "BG_FoodStalls_A.png",
+  "tileColors": "",
+  "autoColor": false
+}

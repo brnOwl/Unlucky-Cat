@@ -1,0 +1,91 @@
+{
+  "_resourceType": "script",
+  "id": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+  "name": "Check For Talk Limit",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "V0"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V0",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "ddad06c7-7233-4a9f-8c51-54fe1c4cb784"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "18"
+                  },
+                  "id": "80e6454a-1cec-4fd7-a09f-5ae4f972265e"
+                }
+              ],
+              "false": []
+            },
+            "id": "c917e91b-22fb-4f4c-bfaa-a06334c42abb"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 7
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "ced6ba24-70f4-4ece-8d17-6400ca1d605a"
+          }
+        ],
+        "false": []
+      },
+      "id": "27c6e925-2d2d-4b7a-9525-7d57c3e2d6a0"
+    }
+  ]
+}

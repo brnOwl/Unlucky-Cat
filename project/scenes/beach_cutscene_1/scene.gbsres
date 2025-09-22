@@ -3,14 +3,14 @@
   "id": "0fa1406f-8051-4d39-b942-0bc3650e474d",
   "_index": 7,
   "name": "Beach Cutscene 1",
-  "backgroundId": "50655c84-edfa-4d3e-8b27-2ced10ad0d31",
+  "backgroundId": "951a6665-e32b-4632-89a4-dbc6c6af2de6",
   "tilesetId": "",
   "width": 44,
   "height": 22,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "003c8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 600,
@@ -26,7 +26,7 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1,
+        "time": 2,
         "frames": 30
       },
       "id": "29b6e422-7fc7-49fb-9a2d-d62be2927513"

@@ -1,0 +1,157 @@
+{
+  "_resourceType": "actor",
+  "id": "317df745-bea7-49b3-98cd-c695757654d0",
+  "name": "Date",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_77",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh hello Mr. Cat,\nyou seem to like",
+          "us, huh? ha ha"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6d5f5e3d-7481-4b16-b808-cc97e6859abd"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "20"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Woah, is this\nMARK's phone?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "32c30575-4f92-439d-8663-ea7a3b7ce25d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "cb7fd27b-4373-4d33-ae50-9aaeb3d37e8b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Who is this?????\nYou've got to be",
+                "joking."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8fd0b2a3-14cf-429d-b64e-cb6c52b3aa2c"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b1ed2e78-b9e5-4dab-a077-7f0e31db0955",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "d986ea12-1ef5-41e8-b340-2c64b3fbe5bd"
+          }
+        ],
+        "false": []
+      },
+      "id": "02ef5b7b-b735-417f-b3f9-51bf6f39e47e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "6c28090f-d4cf-4038-9a30-c2fd09e33648"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 15,
+  "_index": 5
+}

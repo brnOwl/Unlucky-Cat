@@ -3,19 +3,53 @@
   "id": "50b809fb-c47a-4cf4-913e-7c270aaccd17",
   "_index": 5,
   "name": "Beach SW 1",
-  "backgroundId": "5f32e099-8691-418f-9caf-d68e5412dc55",
+  "backgroundId": "f0410428-41bf-47df-b286-e68a6485b8e2",
   "tilesetId": "",
   "width": 44,
   "height": 22,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f2c+",
+  "collisions": "0f!002b+0f4+00!0f4+002+0f3+001e+0f4+007+0f3+001e+0f4+003+0f3+00!0f3+00!0f3+001a+0f4+003+0f3+005+0f3+001a+0f!002+0f3+00!0f3+005+0f3+001a+0f!002+0f3+0026+0f!002+0f3+0026+0f!002+0f3+0026+0f!002b+0f4+0028+0f4+0028+0f4+0028+0f4+0028+0f!004+0f2+0025+0f6+0026+0f4+0028+0f4+0021+0f3+004+0f!0024+0f3+004+0f!0020+0f3+00!0f3+00!0f2+00!0f!0020+0f3+005+0f2+00!0f2c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 520,
   "y": 848,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4a212a76-644d-4413-94ef-4f725e296977"
+            },
+            "id": "b2cfe61c-cb69-433f-b321-1605e5a2c23c"
+          }
+        ],
+        "false": []
+      },
+      "id": "dc4524de-6662-45a9-b896-2e698c4f493f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6cc9f4f3-c2d4-48e1-832f-96cd040f3861"
+      },
+      "id": "f4337d05-38f1-495a-8969-1ce7b7e6c3a3"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64deb719-bc50-44af-8019-4578e3782577",
+  "name": "BG_HUB",
+  "symbol": "bg_bg_hub",
+  "width": 22,
+  "height": 44,
+  "imageWidth": 176,
+  "imageHeight": 352,
+  "filename": "BG_HUB.png",
+  "tileColors": "",
+  "autoColor": false
+}

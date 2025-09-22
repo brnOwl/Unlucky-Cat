@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb",
+  "name": "Mark",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_76",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There's gotta be\nONE pumpkin that's",
+          "still good..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a3c77e5c-4133-4845-9e2b-ac94e57464be"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 8,
+  "_index": 11
+}

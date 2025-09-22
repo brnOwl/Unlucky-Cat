@@ -1,0 +1,89 @@
+{
+  "_resourceType": "actor",
+  "id": "16fc5a5b-7951-4636-b24e-b9da7292dbcb",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_82",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sup cat"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e330356a-bb09-4a4c-8ed7-f1201c571837"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "*Daps you up*"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6ee27545-ec33-460f-bce3-6d9c0314628c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "d01a637b-ccb3-48b6-a7f2-c82dbd3a877e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 16,
+  "_index": 3
+}

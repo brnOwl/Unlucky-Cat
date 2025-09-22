@@ -13,7 +13,17 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "54d9d8c9-a116-45c2-aa12-aea037986c75": {
+      "id": "54d9d8c9-a116-45c2-aa12-aea037986c75",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "6"
+        }
+      }
+    }
+  },
   "symbol": "actor_28",
   "script": [],
   "startScript": [],

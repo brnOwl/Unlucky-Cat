@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "9df085e0-ea79-431c-843c-019a089217ae",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "eda81820-9d9b-4f9d-b1d5-19066712433c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_80",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "a4df427b-dd3f-453d-90ad-d75bcc855836"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "Leave please..?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7124de3c-e99a-424a-a913-fb64c605829e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "591fab85-1740-4b2b-9206-343c8eb7a371"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "cbc04534-416b-41c6-996c-9620027039e3"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "379243c5-bfbc-428e-9a4f-23fab4bcbd2e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 7,
+  "_index": 1
+}

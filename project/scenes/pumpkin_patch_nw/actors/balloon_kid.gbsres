@@ -1,0 +1,156 @@
+{
+  "_resourceType": "actor",
+  "id": "011267a0-3467-43a3-a59f-58a74b6f746d",
+  "name": "Balloon Kid",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_38",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "10"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...sobbing ..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f749f493-3177-47b4-aa9a-657cf9e1772a"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "19c68300-7835-41c5-9a51-4e9762b8a81c"
+          }
+        ],
+        "false": []
+      },
+      "id": "ee4a88d2-6682-43c2-8597-8933eeb2afa2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "WOAH a black cat",
+          "WAIT MY BALLOONS",
+          "... sobbing .."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3467b215-367e-489b-9b37-3403657abb2f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "5ab2553e-8318-43ca-b25f-b7b21e7dcd23"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "301212b8-4d4c-4341-865e-85b645c6654d",
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "moveType": "vertical",
+        "useCollisions": true
+      },
+      "id": "16c85937-c25a-45f2-bd55-e59f81238565"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There there kiddo"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9d6eff29-6b54-431a-a245-e0ef15f0ee1b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 35,
+  "y": 17,
+  "_index": 1
+}

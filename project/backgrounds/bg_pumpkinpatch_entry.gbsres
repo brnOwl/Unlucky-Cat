@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ebce33e6-b8ff-4f5d-b918-b0cd91e45b8a",
+  "name": "BG_PumpkinPatch_Entry",
+  "symbol": "bg_bg_pumpkinpatch_entry",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "BG_PumpkinPatch_Entry.png",
+  "tileColors": "",
+  "autoColor": false
+}

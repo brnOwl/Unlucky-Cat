@@ -4,18 +4,85 @@
   "name": "Mirror",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "362bbec1-9e48-485d-880a-3133bb852d91",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_26",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "735e9632-0590-4bed-b921-45690d3133a7"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "8709a0dc-983b-48e0-b443-bbdce31caa4c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "63c89f2e-e8d6-4565-ba6a-37c1f1a1febf"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "high",
+        "pitch": 8,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "869bac31-4b51-45c2-bcb2-ccaa9a4074b7"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "00574e3d-a3ed-477f-9990-de0dc3ca66e6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "beb9725d-888a-46ea-8bce-6c276584a033",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 37
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2cecb672-b8b8-4689-8b22-a8ebe8be2ef1"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

@@ -1,0 +1,166 @@
+{
+  "_resourceType": "actor",
+  "id": "f3ce4f13-9709-4c6b-8d81-65fe9f072424",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "77204189-042b-4e43-8e10-1989cb718941",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_57",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Creepy intro to\nboss man"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7c96db55-0cbc-48b7-a56d-212f0b433856"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "29943c97-089c-4dd8-93b8-f4ba9c16e07d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "2eef108c-bf5f-4ef1-bff4-888c08b3f022"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f907e54a-6189-4888-a044-d59c9b542235",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "45935b31-17d0-4a9a-b1cf-e39c50093448"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "aeb5ad89-fed3-4cf0-9572-69c4809ee0a5"
+      },
+      "id": "622318d3-603e-4c17-b4e9-88a3d8a22507"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You have a new\nmark.",
+                "He's awful,\nterrible.",
+                "He never tips,\nhe's always \nspilling salt...",
+                "Give him what he's\ndue."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ed06474a-e2f1-4f56-b9ed-0bc1231767be"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2"
+            },
+            "id": "558d570f-f2ec-4121-a74c-b234954e05e1"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "aeb5ad89-fed3-4cf0-9572-69c4809ee0a5"
+            },
+            "id": "06b9f2f4-d7d5-4390-9dd5-3a116e1e2290"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": "2"
+            },
+            "id": "6149b3e4-df32-457c-bcf5-7b73c97303f4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "player",
+              "speed": 1
+            },
+            "id": "c68eea71-6ac8-49df-88f8-33af9108d3d3"
+          }
+        ],
+        "false": []
+      },
+      "id": "6a6cb312-bcb3-4964-a7f0-6adb0d180ae4"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 9,
+  "_index": 0
+}

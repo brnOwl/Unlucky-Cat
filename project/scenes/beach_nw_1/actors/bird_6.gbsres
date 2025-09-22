@@ -4,9 +4,9 @@
   "name": "Bird 6",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
-  "prefabId": "2632f865-d460-4211-a4f5-4ef767b4c36d",
-  "direction": "down",
+  "spriteSheetId": "8af019f6-2d7d-4b8b-ada8-d03b378318e5",
+  "prefabId": "",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,197 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They're not \nmotivated by",
+                "anything but food"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "1b3fd3e7-a2ba-44ef-bd3d-591047b1b0f5",
+            "children": {}
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They must smell\nfood nearby..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "b3b49e1a-548b-4e3b-aa7d-5ea9df05fdb2",
+            "children": {}
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2"
+            },
+            "id": "62802982-4df8-4ef7-be50-ceda08dca461",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "ddc74a7d-e817-43ae-ad90-5ec16b10b686",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "c807f973-1f88-44d2-8590-14ecde0c51ce",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "68be4ba8-6fbf-4c46-a3e5-c10c93cccfc8",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "ca6b696d-851b-4bdd-b3fb-4c1b702f9b0d",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "a4df033a-305b-40aa-bd11-d018037175b1",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "4757eb83-4688-43f4-85cb-45a6aee63fd6",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "53e22b9b-7688-4e96-b2d2-016d9fa78a0b",
+            "children": {}
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": "2"
+            },
+            "id": "c2a0871d-6820-4d59-a7ff-1efa741b4d07",
+            "children": {}
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They take off!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dc293534-6b1f-42cb-9004-bc7ecee5c7de",
+            "children": {}
+          }
+        ]
+      },
+      "id": "119a14da-8492-485f-a209-62fb84caba74"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

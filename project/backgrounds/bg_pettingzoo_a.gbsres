@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "27d89d51-1d9a-4eed-acee-377af5dc0258",
+  "name": "BG_PettingZoo_A",
+  "symbol": "bg_bg_pettingzoo_a",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "BG_PettingZoo_A.png",
+  "tileColors": "",
+  "autoColor": false
+}

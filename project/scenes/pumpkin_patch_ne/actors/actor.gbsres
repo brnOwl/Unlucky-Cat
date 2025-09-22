@@ -1,0 +1,97 @@
+{
+  "_resourceType": "actor",
+  "id": "f27ef282-df1a-4615-8e68-9afdbe96955e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c3a47ab8-4fb3-43b8-9c43-87e4a3d338f2",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "20eb0d7b-55d2-4c9a-bc4a-9f983ace6028"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello little\nkitty!",
+          "I'm sorry, but\nI don't think",
+          "I can understand\nyou..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "8db87dee-750d-4655-8639-a799dca14ad5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a4dc76bd-d0e2-4d89-bd12-a10ad830de4b",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "5df4a3f4-3007-4a45-80d2-77cf388e8b26"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "6423a19a-fc69-4ba6-840b-7b9e559f60ba"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255,
+        "__collapse": true
+      },
+      "id": "d8d72f9e-7dee-4023-93c8-a0bee6c64a6f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 7,
+  "_index": 0
+}

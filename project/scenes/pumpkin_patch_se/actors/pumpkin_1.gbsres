@@ -1,0 +1,255 @@
+{
+  "_resourceType": "actor",
+  "id": "92ae8a2d-af11-4c3d-b896-5ba9ace7937f",
+  "name": "pumpkin 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "286710b2-243e-482e-abd9-27c74127f46e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_29",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "It seems there was\none survivor..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "feec5118-4829-47ea-ac0b-81f0901d5c6a"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Well, it seems\nthey may have",
+                      "one pumpkin left.\nUnless I can-",
+                      "WAIT"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b1a1731d-97ff-4b25-9a0e-6c2d1a06090b"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb",
+                    "x": {
+                      "type": "number",
+                      "value": 23
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false
+                  },
+                  "id": "2f9dc35a-02f6-47cf-a895-31d86a7bd3ec"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Mangy cat! Don't\nyou dare!",
+                      "This is mine- I\nmean OUR pumpkin.",
+                      "Lets go."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "670e4389-603f-4617-8292-6faa5eb0ffd5"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb",
+                    "x": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "955053eb-2875-4c78-a123-96feea221d89"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb"
+                  },
+                  "id": "d90adc4c-47ee-4777-8cd6-b5ec262b5727"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "1d535e4a-b32c-4f49-9007-d43aef1c849e",
+                    "x": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "f588910c-02ed-479f-b4e1-19d81801242a"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "1d535e4a-b32c-4f49-9007-d43aef1c849e"
+                  },
+                  "id": "00b937ba-49bf-477a-9018-9637cde86d1a"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "17",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "d9a21865-8d72-4a58-8e9c-a6eb4937859d"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "14ff20ba-be21-4afb-ae11-a531227eb0f9"
+                }
+              ]
+            },
+            "id": "381f3a35-103e-4751-a348-e0000d2bf99a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pretty pumpkin..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "85db0adb-b16c-46f2-ace7-677849f50029"
+          }
+        ]
+      },
+      "id": "c05d65c1-a7a6-4997-9b64-b5729651029c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 25,
+  "y": 12,
+  "_index": 0
+}

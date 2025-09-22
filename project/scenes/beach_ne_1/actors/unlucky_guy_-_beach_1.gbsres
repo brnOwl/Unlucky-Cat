@@ -62,7 +62,9 @@
           },
           {
             "command": "EVENT_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "aff03549-b7c2-435e-b849-0f98be1c0747",
             "children": {}
           }
@@ -90,8 +92,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Now that he's \ngone, what can I",
-                "use to cause\nchaos?"
+                "Now that hot dog\nguy is gone, what",
+                "can I use to cause\nchaos?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -109,7 +111,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a450fc45-aec5-4c78-91ed-07feebc69079",
             "children": {}
@@ -163,7 +165,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "eec414f3-136d-4d4a-b20a-1b19939697fe",
             "children": {}
@@ -190,7 +192,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -232,6 +234,47 @@
         "false": []
       },
       "id": "a45f527e-e180-4e7d-bd51-d421895a5add"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm unlucky huh"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "955ed226-3327-41f3-b3b7-205ea7dbb37c"
+          }
+        ],
+        "false": []
+      },
+      "id": "8291d456-5b17-4371-a1bc-50ae6954919d"
     }
   ],
   "startScript": [],

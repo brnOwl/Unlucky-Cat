@@ -1,0 +1,83 @@
+{
+  "_resourceType": "actor",
+  "id": "a6ce5f88-52f7-4b88-be9b-cc714b996bf5",
+  "name": "Mark Phone",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ad741e26-1ab9-4fdd-af50-63ecc5a1fcf4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_87",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Got MARK's phone",
+          "1 new notification",
+          "Woah this is not\nfamily friendly"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "74c75978-c5ee-4e31-af80-df092c336caf"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "37e6ae0c-e0e4-44d4-a0d8-8a6546288927"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "586e47c5-acfd-4f9d-b8ce-b2d9835f3536"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d2c2711b-7949-48cc-8540-65e571d79ec2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 25,
+  "y": 11,
+  "_index": 7
+}

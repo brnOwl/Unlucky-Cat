@@ -4,9 +4,9 @@
   "name": "bird 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "8af019f6-2d7d-4b8b-ada8-d03b378318e5",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -17,65 +17,30 @@
   "symbol": "actor_16",
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_TEXT",
       "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "2"
-          }
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "ee277f8a-6669-430e-a52f-a50aa3ed1771"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "5a35fca2-6900-48a2-9b4b-3d20393e9de7"
-            },
-            "id": "a76369b2-a658-471f-8363-40d91b8683ce"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "c83e96d2-8a3c-4af3-86f7-f1b311ef3a67"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "3a1a4bac-89d0-4d98-914b-adfccf16c8d0"
-            },
-            "id": "a67f0634-4ee1-45d2-87d1-fd6b4e4dac1b"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "73aea4b6-62fa-417f-b5b3-ead0a202f069"
-            },
-            "id": "288a2b9d-76ec-4286-a532-376d142f7a0f"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "71bfa497-27c9-458b-b351-5bf291c60e5d"
-            },
-            "id": "33b744c2-c944-445a-9875-101600e1a18a"
-          }
+        "text": [
+          "Squack, *munch*,\nsquack"
         ],
-        "false": []
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
-      "id": "8e515a8a-1135-4d3a-b59c-d80fb9444a74"
+      "id": "57c42f45-a33f-4352-8e18-7654003df43f"
     }
   ],
   "startScript": [],

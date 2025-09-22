@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "0ca619ec-6060-4a5a-b7aa-d079cf6e63c9",
+  "_index": 20,
+  "name": "Final Screen",
+  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 3064,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "311da872-4526-464b-9553-fc27599fc70e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Closing dialogue"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "351a6876-9e02-4683-aee3-4a9548bf147b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1dd48c87-8fae-4b1a-b058-5e11c51b3976",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "735f4678-cbdb-41c8-8482-eb1d71300ed4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

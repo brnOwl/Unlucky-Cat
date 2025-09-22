@@ -26,7 +26,8 @@
           "valueB": {
             "type": "false"
           }
-        }
+        },
+        "__collapseElse": false
       }
     },
     "07ebd77d-a0b6-484f-a5f6-21ab9bf47b10": {
@@ -47,7 +48,31 @@
       "id": "319b0761-2b03-4839-8c5e-30074818f837",
       "args": {
         "text": [
-          "Car alarm was \nset off"
+          "You lightly\ntouch the car"
+        ]
+      }
+    },
+    "25931296-b52f-43f6-a8cb-062926f8e164": {
+      "id": "25931296-b52f-43f6-a8cb-062926f8e164",
+      "args": {
+        "text": [
+          "The car alarm\ngoes off"
+        ]
+      }
+    },
+    "b23ec997-075b-4afe-ac95-4374103b0246": {
+      "id": "b23ec997-075b-4afe-ac95-4374103b0246",
+      "args": {
+        "text": [
+          "That should\ndistract them..."
+        ]
+      }
+    },
+    "0b3e7483-5712-40aa-bf37-45c0d7532e88": {
+      "id": "0b3e7483-5712-40aa-bf37-45c0d7532e88",
+      "args": {
+        "text": [
+          "This car is making\nloud noises"
         ]
       }
     }
@@ -59,7 +84,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 7,
+  "x": 6,
+  "y": 15,
   "_index": 0
 }

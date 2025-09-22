@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f0410428-41bf-47df-b286-e68a6485b8e2",
+  "name": "BG_Parking_A",
+  "symbol": "bg_bg_parking_a",
+  "width": 44,
+  "height": 22,
+  "imageWidth": 352,
+  "imageHeight": 176,
+  "filename": "BG_Parking_A.png",
+  "tileColors": "",
+  "autoColor": false
+}

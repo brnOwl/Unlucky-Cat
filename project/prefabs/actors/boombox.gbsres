@@ -11,7 +11,31 @@
   "persistent": false,
   "collisionGroup": "",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "5c7da43a-d8f8-4fbf-ba6f-10cb23a14a10"
+          }
+        ],
+        "false": []
+      },
+      "id": "54d9d8c9-a116-45c2-aa12-aea037986c75"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

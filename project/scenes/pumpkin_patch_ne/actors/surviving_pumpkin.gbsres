@@ -1,0 +1,53 @@
+{
+  "_resourceType": "actor",
+  "id": "938dc1ae-466a-4cb2-b7d3-61468b8648ab",
+  "name": "surviving pumpkin",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "286710b2-243e-482e-abd9-27c74127f46e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_89",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Almost had you..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ca7a1404-c165-494d-a4c9-b7fd04ea2b3c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 30,
+  "y": 17,
+  "_index": 9
+}

@@ -78,6 +78,74 @@
         "actorId": "player",
         "direction": "L2"
       }
+    },
+    "26e018e2-3318-45a9-ada4-c8982a052236": {
+      "id": "26e018e2-3318-45a9-ada4-c8982a052236",
+      "args": {
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    "b7106c67-632b-4ec1-9c52-61c237633e90": {
+      "id": "b7106c67-632b-4ec1-9c52-61c237633e90",
+      "args": {
+        "actorId": "fd506d72-b68a-470e-869e-c042cfaf3f20"
+      }
+    },
+    "f64241fe-6ccb-463e-813b-c6e310991357": {
+      "id": "f64241fe-6ccb-463e-813b-c6e310991357",
+      "args": {
+        "actorId": "fbf6940f-b031-4cb1-9fc9-8e9bc17ffb96"
+      }
+    },
+    "5e7e1ed1-0987-4aad-bc30-798b74a6d527": {
+      "id": "5e7e1ed1-0987-4aad-bc30-798b74a6d527",
+      "args": {
+        "actorId": "f594f273-8e9d-48d8-98e8-c90f38b77cfb"
+      }
+    },
+    "67e05487-7b7b-4fdb-ae4c-f522479ee7a0": {
+      "id": "67e05487-7b7b-4fdb-ae4c-f522479ee7a0",
+      "args": {
+        "actorId": "2f02ca98-8bc0-4a4a-8dc2-0e737330f0f2"
+      }
+    },
+    "f720334c-f8a7-417b-a86e-3aaefc2e95a8": {
+      "id": "f720334c-f8a7-417b-a86e-3aaefc2e95a8",
+      "args": {
+        "actorId": "f9928e56-c38d-4568-8b94-5f88c1964e11"
+      }
+    },
+    "de2214e2-ba04-4dca-9791-aa959e479da6": {
+      "id": "de2214e2-ba04-4dca-9791-aa959e479da6",
+      "args": {
+        "actorId": "a808aabe-ab79-40f5-a93b-b55fc9852d98"
+      }
+    },
+    "c9c7788f-5ca4-42a1-9dc0-c1ecc56af43c": {
+      "id": "c9c7788f-5ca4-42a1-9dc0-c1ecc56af43c",
+      "args": {
+        "text": [
+          "BIRDS"
+        ]
+      }
+    },
+    "47bfa173-bfe0-43ab-840c-4768971ff27c": {
+      "id": "47bfa173-bfe0-43ab-840c-4768971ff27c",
+      "args": {
+        "actorId": "d0aa92da-b3cd-433d-b0b5-7eef6da7b7e4"
+      }
+    },
+    "9f70c311-8914-4e3b-9466-139a787fe668": {
+      "id": "9f70c311-8914-4e3b-9466-139a787fe668",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "6"
+        }
+      }
     }
   },
   "symbol": "actor_27",

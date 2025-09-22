@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "f907e54a-6189-4888-a044-d59c9b542235",
+  "_index": 11,
+  "name": "Boss Close-up",
+  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 1416,
+  "y": 1264,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ee4bb500-c578-455d-9012-ba90c6771a40"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "THREATENING\nAURA"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "367b9767-c8f8-433c-912a-62679a6b5cca"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6d029b4a-7812-4b78-97c8-3fefde542fd5",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a17f8891-0b1e-483b-bc4e-04db01d802c1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "orange"
+}

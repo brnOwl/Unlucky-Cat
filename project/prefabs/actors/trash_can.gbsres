@@ -4,9 +4,9 @@
   "name": "Trash Can",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "51b9e643-4e12-4d6f-9547-458d62c14240",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "",
@@ -52,12 +52,23 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "aaf5abe6-1ab9-4021-b181-d6bd946b550c"
           }
         ],
         "false": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "3140539c-776d-4f79-8dd8-baa5e5dedddd"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {

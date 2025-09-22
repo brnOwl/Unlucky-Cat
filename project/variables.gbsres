@@ -14,7 +14,7 @@
     {
       "id": "2",
       "name": "birdsActivated",
-      "symbol": "var_birdsactivated"
+      "symbol": "var_birdsactivated_0"
     },
     {
       "id": "3",
@@ -40,6 +40,81 @@
       "id": "7",
       "name": "washedAway",
       "symbol": "var_washedaway"
+    },
+    {
+      "id": "8",
+      "name": "isNotIntro",
+      "symbol": "var_isnotintro"
+    },
+    {
+      "id": "9",
+      "name": "markGiven",
+      "symbol": "var_markgiven_0"
+    },
+    {
+      "id": "10",
+      "name": "balloonsLost",
+      "symbol": "var_balloonslost"
+    },
+    {
+      "id": "11",
+      "name": "truckHealth",
+      "symbol": "var_truckhealth"
+    },
+    {
+      "id": "12",
+      "name": "truckDefeated",
+      "symbol": "var_truckdefeated"
+    },
+    {
+      "id": "13",
+      "name": "dateCrashed",
+      "symbol": "var_datecrashed"
+    },
+    {
+      "id": "14",
+      "name": "flowersMessed",
+      "symbol": "var_flowersmessed"
+    },
+    {
+      "id": "15",
+      "name": "animalsFree",
+      "symbol": "var_animalsfree"
+    },
+    {
+      "id": "16",
+      "name": "dateCrashedPets",
+      "symbol": "var_datecrashedpets"
+    },
+    {
+      "id": "9906bcfe-8dc3-4754-9b5e-6091f8818908__L0",
+      "name": "markGiven",
+      "symbol": "var_markgiven"
+    },
+    {
+      "id": "d4a4590b-330e-4e40-be28-f30ad981e190__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "17",
+      "name": "markGotPumpkin",
+      "symbol": "var_markgotpumpkin"
+    },
+    {
+      "id": "18",
+      "name": "talkCount",
+      "symbol": "var_talkcount"
+    },
+    {
+      "id": "19",
+      "name": "markInLine",
+      "symbol": "var_markinline"
+    },
+    {
+      "id": "20",
+      "name": "gotMarksPhone",
+      "symbol": "var_gotmarksphone"
     }
   ]
 }
