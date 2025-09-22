@@ -4,7 +4,7 @@
   "name": "Date",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "117995cd-6fea-4d39-b0c2-d0223138f94b",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Can't wait to\nride the hay bale"
+          "Can't wait for\nthe hayride!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,6 +40,14 @@
         "closeDelayFrames": 30
       },
       "id": "424cf8d2-c337-47aa-b79e-796d002f1e80"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "34f5526a-945d-445c-83b8-fb4d64153dde"
     }
   ],
   "startScript": [],

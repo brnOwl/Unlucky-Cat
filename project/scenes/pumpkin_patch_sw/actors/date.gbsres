@@ -4,7 +4,7 @@
   "name": "Date",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "117995cd-6fea-4d39-b0c2-d0223138f94b",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,42 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_71",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aw, hi again\nkitty. Do you also",
+          "want pets? Hehe,\nhere you go."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "25e11ee7-3879-4e17-92bc-116dd35fd6a3"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "110c8cc4-2c39-450c-8d16-d1f136e0eeff"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

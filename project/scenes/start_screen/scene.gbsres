@@ -3,12 +3,14 @@
   "id": "4430cbd2-3728-48d4-828a-91372a5f41a0",
   "_index": 1,
   "name": "Start Screen",
-  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "backgroundId": "efa859c8-2d66-4669-8905-ac94c16c7582",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-sprite"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
@@ -25,31 +27,6 @@
       "id": "abfba832-3d82-4e67-ad70-24db676fd3c5"
     },
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Game Start"
-        ],
-        "__section": "behavior",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "01240435-a4de-4da1-9d1e-b78d1b46ce7c"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "aaeb988b-2772-42c1-8a06-67505c76505c"
@@ -57,16 +34,24 @@
       "id": "3dd1c948-e889-4bd6-a943-d12ba4d29feb"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.9,
+        "frames": 30
+      },
+      "id": "fd92be56-74db-4186-92e2-3b39df021231"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "81c55633-3935-4332-a418-3d02430b856e",
+        "sceneId": "50b809fb-c47a-4cf4-913e-7c270aaccd17",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 29
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 6
         },
         "direction": "",
         "fadeSpeed": "2"

@@ -4,7 +4,7 @@
   "name": "Food Scrap",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ad741e26-1ab9-4fdd-af50-63ecc5a1fcf4",
+  "spriteSheetId": "8ce69b4a-d40e-4515-999a-ce2d9976e7d7",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -26,7 +26,7 @@
             "value": "3"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -65,9 +65,24 @@
               "closeDelayFrames": 30
             },
             "id": "aa6b38d8-2bd7-4028-a151-f431c2ca37fd"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "28fdc1c6-5bad-49b4-a7da-d05e1890602c"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "edafbac9-e77c-4bbb-b356-9de3696cbe2d"
+          }
+        ]
       },
       "id": "a8cb6fec-77d7-4d09-bdbd-fba1485c8aec"
     }

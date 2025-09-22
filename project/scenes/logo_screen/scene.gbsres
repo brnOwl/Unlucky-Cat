@@ -3,12 +3,14 @@
   "id": "c217af95-dab5-42b4-97ac-90867eef9bbf",
   "_index": 0,
   "name": "Logo Screen",
-  "backgroundId": "d9204b9e-2f45-4329-9ec6-6dc4f23911cb",
+  "backgroundId": "9c3cf9a8-e913-47f2-8799-43ea217a6b6f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-sprite"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 3,

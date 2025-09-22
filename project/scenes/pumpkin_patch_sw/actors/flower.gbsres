@@ -34,7 +34,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "OH NO THE FLOWERS"
+                "*You bite the stem\nof the flower*"
               ],
               "__section": "text",
               "avatarId": "",
@@ -54,6 +54,14 @@
               "closeDelayFrames": 30
             },
             "id": "d4a4928f-5ef2-45b8-8beb-a3e4edbd01e7"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "73e4d30e-1656-4341-b234-2da4d629267b",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "e233c09b-0f19-4c0c-9e78-a777f36ff9cb"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -79,7 +87,7 @@
             "args": {
               "text": [
                 "The flower is \nhanging on by",
-                "a thread."
+                "a thread... \noops?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -111,6 +119,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 18,
-  "y": 6,
+  "y": 4,
   "_index": 5
 }

@@ -29,9 +29,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hello little\nkitty!",
-          "I'm sorry, but\nI don't think",
-          "I can understand\nyou..."
+          "Hello little\nkitty! Do you want",
+          "some fried ice \ncream? Or fried",
+          "oreos? Or fried \nnachos? Or fried-"
         ],
         "__section": "text",
         "avatarId": "",
@@ -49,7 +49,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8db87dee-750d-4655-8639-a799dca14ad5"
     },

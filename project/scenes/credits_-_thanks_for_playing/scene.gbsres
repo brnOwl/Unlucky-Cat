@@ -1,14 +1,16 @@
 {
   "_resourceType": "scene",
   "id": "1dd48c87-8fae-4b1a-b058-5e11c51b3976",
-  "_index": 21,
+  "_index": 18,
   "name": "Credits - Thanks for Playing",
-  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "backgroundId": "efa859c8-2d66-4669-8905-ac94c16c7582",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-sprite"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
@@ -27,7 +29,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Thank you for\nplaying!"
+          "Thank you for\nplaying!",
+          "Game Concepts, \nLead Programmer",
+          "Composer -\nLuke Gallucci",
+          "Game Design, Art,\nNarrative Design",
+          "-Danny Gallucci"
         ],
         "__section": "text",
         "avatarId": "",

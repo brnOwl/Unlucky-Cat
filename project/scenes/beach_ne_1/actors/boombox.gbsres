@@ -22,6 +22,14 @@
           "value": "6"
         }
       }
+    },
+    "58dd6787-0212-49b4-a689-1de9a807b62e": {
+      "id": "58dd6787-0212-49b4-a689-1de9a807b62e",
+      "args": {
+        "text": [
+          "This guy is \nBLARING music...!"
+        ]
+      }
     }
   },
   "symbol": "actor_28",
@@ -31,7 +39,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 15,
+  "x": 18,
+  "y": 16,
   "_index": 1
 }

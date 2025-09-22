@@ -3,7 +3,7 @@
   "id": "f907e54a-6189-4888-a044-d59c9b542235",
   "_index": 11,
   "name": "Boss Close-up",
-  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "backgroundId": "79f5709f-6234-4e83-b58c-725e4a82557b",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -27,7 +27,19 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "THREATENING\nAURA"
+          "I see you made\nyour last MARK",
+          "experience some\ntrue UNLUCK.",
+          "Well done, you\nHIDEOUS OMEN.",
+          "No time to waste,\nyou have more WORK",
+          "ahead... your next\nMARK is a",
+          "REAL piece of \nshit.",
+          "Always spilling \nsalt, stepping",
+          "on cracks, spoil-\ning TV shows,",
+          "calling people\nnicknames they",
+          "didn't approve...\nhe thinks he got",
+          "away with it all-\nwhy don't you",
+          "prove him wrong,\ngorgeous? O)",
+          "He'll be the one\nin a cowboy hat."
         ],
         "__section": "text",
         "avatarId": "",
@@ -49,21 +61,11 @@
       "id": "367b9767-c8f8-433c-912a-62679a6b5cca"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SCENE_POP_ALL_STATE",
       "args": {
-        "sceneId": "6d029b4a-7812-4b78-97c8-3fefde542fd5",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "a17f8891-0b1e-483b-bc4e-04db01d802c1"
+      "id": "c47eb41d-3712-4cfc-9607-12e0f034aa49"
     }
   ],
   "playerHit1Script": [],

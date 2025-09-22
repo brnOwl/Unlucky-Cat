@@ -13,7 +13,22 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "f5bff528-8a36-4848-a61d-ecf640725b6d": {
+      "id": "f5bff528-8a36-4848-a61d-ecf640725b6d",
+      "args": {
+        "text": [
+          "I wish I was \nanywhere else"
+        ]
+      }
+    },
+    "7c31c5ae-2162-4cdb-be23-c4821157c7d7": {
+      "id": "7c31c5ae-2162-4cdb-be23-c4821157c7d7",
+      "args": {
+        "variable": "21"
+      }
+    }
+  },
   "symbol": "actor_10",
   "script": [
     {
@@ -45,7 +60,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 24,
-  "y": 9,
+  "x": 16,
+  "y": 7,
   "_index": 1
 }

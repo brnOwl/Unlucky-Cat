@@ -4,7 +4,7 @@
   "name": "animal 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "9a985fd6-98bb-4c0d-be03-1c19cd2e1101",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,8 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hola",
-          "Heyo"
+          "Hola"
         ],
         "__section": "text",
         "avatarId": "",

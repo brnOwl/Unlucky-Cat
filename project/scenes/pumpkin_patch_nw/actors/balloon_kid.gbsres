@@ -4,7 +4,7 @@
   "name": "Balloon Kid",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "06acf61f-eab4-4779-bf57-4a15b98670d6",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -69,9 +69,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "WOAH a black cat",
-          "WAIT MY BALLOONS",
-          "... sobbing .."
+          "Ooh, kitty!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -103,6 +101,37 @@
       "id": "5ab2553e-8318-43ca-b25f-b7b21e7dcd23"
     },
     {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "cd8098c8-27bf-4f39-bea4-9295cad0e59b",
+        "spriteSheetId": "282ce5ac-b924-44f5-9b56-5e13fb615c59"
+      },
+      "id": "d325ed3c-9043-4b0b-9807-07cd4669dba3"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "cd8098c8-27bf-4f39-bea4-9295cad0e59b"
+      },
+      "id": "9ba00cbc-003b-4787-ac75-c2d556a7f751"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "4869773a-7d77-4c66-9411-a2b45a54aaf4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "c3091b3c-ffce-455d-b95e-694e640aad6e"
+      },
+      "id": "26be4b50-7947-484c-9886-0f4c9368f42e"
+    },
+    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "actorId": "301212b8-4d4c-4341-865e-85b645c6654d",
@@ -123,7 +152,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "There there kiddo"
+          "How unlucky!\nDon't cry, kiddo!"
         ],
         "__section": "text",
         "avatarId": "",

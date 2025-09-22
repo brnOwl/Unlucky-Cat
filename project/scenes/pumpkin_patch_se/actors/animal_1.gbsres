@@ -4,7 +4,7 @@
   "name": "animal 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "757cbb7d-b27a-495b-a8ed-5759138f245f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
-  "y": 17,
+  "x": 26,
+  "y": 12,
   "_index": 9
 }

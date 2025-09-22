@@ -32,6 +32,31 @@
       "id": "5cba0f35-0c8d-4302-908a-d3d658d0992b"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "He's washing off\nin the ocean...?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bf759071-7506-4515-aa0e-5190f5029657"
+    },
+    {
       "command": "EVENT_SCENE_POP_ALL_STATE",
       "args": {
         "fadeSpeed": "2"

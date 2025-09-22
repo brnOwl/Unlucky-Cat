@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "92ae8a2d-af11-4c3d-b896-5ba9ace7937f",
-  "name": "pumpkin 1",
+  "name": "Peffect Pumpkin",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "286710b2-243e-482e-abd9-27c74127f46e",
@@ -66,7 +66,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "feec5118-4829-47ea-ac0b-81f0901d5c6a"
                 }
@@ -77,8 +77,7 @@
                   "args": {
                     "text": [
                       "Well, it seems\nthey may have",
-                      "one pumpkin left.\nUnless I can-",
-                      "WAIT"
+                      "one pumpkin left.\nUnless I can-"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -98,6 +97,14 @@
                     "closeDelayFrames": 30
                   },
                   "id": "b1a1731d-97ff-4b25-9a0e-6c2d1a06090b"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                  },
+                  "id": "e9147918-21df-4064-8362-f9ef07a4ee6c"
                 },
                 {
                   "command": "EVENT_ACTOR_MOVE_TO",
@@ -121,8 +128,7 @@
                   "args": {
                     "text": [
                       "Mangy cat! Don't\nyou dare!",
-                      "This is mine- I\nmean OUR pumpkin.",
-                      "Lets go."
+                      "This is mine- I\nmean OUR pumpkin."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -142,6 +148,38 @@
                     "closeDelayFrames": 30
                   },
                   "id": "670e4389-603f-4617-8292-6faa5eb0ffd5"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "14ff20ba-be21-4afb-ae11-a531227eb0f9"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Let's go, babe."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a8adf651-c0e4-49d3-bfa6-255c906fe954"
                 },
                 {
                   "command": "EVENT_ACTOR_MOVE_TO",
@@ -166,6 +204,14 @@
                     "actorId": "a98c4d4b-5237-47f6-816b-b63cbd5eb7eb"
                   },
                   "id": "d90adc4c-47ee-4777-8cd6-b5ec262b5727"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                  },
+                  "id": "e729c07e-f9e2-4500-a319-8c855ee8761a"
                 },
                 {
                   "command": "EVENT_ACTOR_MOVE_TO",
@@ -200,13 +246,6 @@
                     }
                   },
                   "id": "d9a21865-8d72-4a58-8e9c-a6eb4937859d"
-                },
-                {
-                  "command": "EVENT_ACTOR_DEACTIVATE",
-                  "args": {
-                    "actorId": "$self$"
-                  },
-                  "id": "14ff20ba-be21-4afb-ae11-a531227eb0f9"
                 }
               ]
             },
@@ -249,7 +288,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 25,
-  "y": 12,
+  "x": 34,
+  "y": 10,
   "_index": 0
 }

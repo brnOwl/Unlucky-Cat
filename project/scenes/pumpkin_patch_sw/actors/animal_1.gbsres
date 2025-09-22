@@ -4,7 +4,7 @@
   "name": "animal 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "abd295c9-db68-4073-aed0-3beeed3585d9",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,11 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Yo",
-          "Hello llama",
-          "Wanna get outa\nhere and snack?",
-          "Sure",
-          "VIVA LA REVOLUTION"
+          "Hello, you trapped\nprincess, you.",
+          "Don't you want to\nget out of here?",
+          "See the world?",
+          "VIVA LA REVOLUTION\n?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -44,6 +43,14 @@
         "closeDelayFrames": 30
       },
       "id": "81af5033-29e0-406f-b00a-65f140c0d49f"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+      },
+      "id": "e2678932-c926-4673-b6f6-599b1d7d6df4"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -72,9 +79,16 @@
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "9d705f69-3663-42af-bea3-62127d4fd311"
+        "actorId": "515d77de-db03-4fdb-acfc-0d5f299bd3cb"
       },
       "id": "1ff95503-2c61-458f-8e1b-cc5b80c21e48"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9d705f69-3663-42af-bea3-62127d4fd311"
+      },
+      "id": "12f6d704-2646-4b24-bb7b-2246997eb76f"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -156,10 +170,20 @@
       "id": "c6da9fc1-4852-4bc5-bf9d-a9691c36f373"
     },
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "26f8976c-659a-4502-9742-9cac011452ae"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ok, it's getting\nworse... ... ..."
+          "Is it just me, or\nis this the worst",
+          "pumpkin patch? I\npaid 10$ and took",
+          "a day off work to\nbe here, come on."
         ],
         "__section": "text",
         "avatarId": "",
@@ -179,6 +203,63 @@
         "closeDelayFrames": 30
       },
       "id": "28da34ff-12ed-4ee9-95cf-10798cfe4753"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd",
+        "x": {
+          "type": "number",
+          "value": 42
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "6e177d41-772c-4f1c-a21e-6803a59a3d7b"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd"
+      },
+      "id": "ca593ead-1680-4e00-9895-f6fd6fc01a66"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "17ed7b21-b77b-4d3c-876a-8f1df6c7dcba",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "9abcb3e2-911c-4ec6-ab55-ecb4238b4c84"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I dunno, just \nseems unlucky..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3b46533d-16db-4da0-9c6a-f10000fd786d"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -205,28 +286,14 @@
       "id": "c70b1c09-e11c-4eb1-8a88-59d4fac18032"
     },
     {
-      "command": "EVENT_ACTOR_MOVE_TO",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd",
-        "x": {
-          "type": "number",
-          "value": 42
-        },
-        "y": {
-          "type": "number",
-          "value": 4
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
+        "variable": "16",
+        "value": {
+          "type": "true"
+        }
       },
-      "id": "6e177d41-772c-4f1c-a21e-6803a59a3d7b"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "4baadf15-798c-4eb0-ba37-dfdb276867fd"
-      },
-      "id": "ca593ead-1680-4e00-9895-f6fd6fc01a66"
+      "id": "b1141c40-1ae9-4cba-8a9c-265b5120d1c7"
     }
   ],
   "startScript": [],
@@ -234,7 +301,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
+  "x": 21,
   "y": 13,
   "_index": 2
 }

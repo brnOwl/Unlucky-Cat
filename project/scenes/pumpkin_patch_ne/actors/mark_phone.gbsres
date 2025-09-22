@@ -20,9 +20,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Got MARK's phone",
+          "Oops, dropped his\nphone, did he?",
+          "Hmm, what's this?",
           "1 new notification",
-          "Woah this is not\nfamily friendly"
+          "Woah this is not\nfamily friendly!",
+          "Wasn't he here on\na date?",
+          "I wonder what she\nwould think..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +43,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "74c75978-c5ee-4e31-af80-df092c336caf"
     },

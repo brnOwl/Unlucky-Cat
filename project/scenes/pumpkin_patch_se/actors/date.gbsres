@@ -4,7 +4,7 @@
   "name": "Date",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "117995cd-6fea-4d39-b0c2-d0223138f94b",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,8 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Uhhh, the pumpkins\naren't lookin too",
-          "good..."
+          "Oh, well. That\nexplains where all",
+          "the llamas and \ngoats went. "
         ],
         "__section": "text",
         "avatarId": "",

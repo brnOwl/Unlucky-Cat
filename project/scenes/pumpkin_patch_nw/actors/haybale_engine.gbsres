@@ -4,7 +4,7 @@
   "name": "Haybale engine",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "spriteSheetId": "6c0054f2-4ebe-45b7-9154-fe933f315514",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -167,7 +167,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "This thing can't \nbe this strong."
+                      "Take that, and \nthat!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -194,7 +194,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "uhhh... one more\ntime?"
+                      "*Pant* just gotta\nhit it one more..."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -239,7 +239,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "87267976-eda4-40b1-bd2a-442c0174be7e"
                 }
@@ -362,7 +362,7 @@
                   "args": {
                     "text": [
                       "Uhhhh so bad news\nguys...",
-                      "The hayride's \nbusted."
+                      "The hayride's \nbusted for today."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -416,10 +416,20 @@
                   "id": "8c250003-6653-453f-8948-3a27bb023525"
                 },
                 {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "83d11471-8261-4a5e-b106-b9ec68bc90d5",
+                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                  },
+                  "id": "dffc73bf-ca54-4594-bde1-88141ab047ef"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "CRASHOUT"
+                      "For real? We've\nbeen waiting for",
+                      "ages! What, is it\nmade of eggs and ",
+                      "optimism, how did\nit break so easy?!"
                     ],
                     "__section": "text",
                     "avatarId": "",

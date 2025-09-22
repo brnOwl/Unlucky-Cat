@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "0ca619ec-6060-4a5a-b7aa-d079cf6e63c9",
-  "_index": 20,
+  "_index": 17,
   "name": "Final Screen",
-  "backgroundId": "7b5e5ef8-4163-46ff-a231-1e2f6dbef226",
+  "backgroundId": "5ee76d03-61ff-4209-b3be-f8925d6db1a4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,7 +11,7 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "symbol": "scene_21",
   "x": 3064,
   "y": 592,
@@ -22,31 +22,6 @@
         "actorId": "$self$"
       },
       "id": "311da872-4526-464b-9553-fc27599fc70e"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Closing dialogue"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "351a6876-9e02-4683-aee3-4a9548bf147b"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

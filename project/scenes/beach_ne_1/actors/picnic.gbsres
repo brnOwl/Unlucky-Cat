@@ -31,8 +31,9 @@
       "id": "379ff69d-2a75-483a-961e-8406174e53b9",
       "args": {
         "text": [
-          "Those birds can\ngive this jerk",
-          "hell, if I\nmotivate them..."
+          "I wish I could\nlure those birds",
+          "to annoy this guy\non my behalf, but",
+          "how? They only\ncare about food..."
         ]
       }
     },
@@ -48,7 +49,8 @@
       "id": "fce3179d-c265-4452-8439-59bc79fd544e",
       "args": {
         "text": [
-          "This should\nmotivate them"
+          "There, some scraps\nshould motivate",
+          "those seagulls :3"
         ]
       }
     },
@@ -128,7 +130,7 @@
       "id": "c9c7788f-5ca4-42a1-9dc0-c1ecc56af43c",
       "args": {
         "text": [
-          "BIRDS"
+          "All according to\nplan... :3"
         ]
       }
     },
@@ -146,6 +148,42 @@
           "value": "6"
         }
       }
+    },
+    "150601ab-745b-4e01-8d47-d26d9ca1d44c": {
+      "id": "150601ab-745b-4e01-8d47-d26d9ca1d44c",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "useCollisions": true,
+        "actorId": "d0aa92da-b3cd-433d-b0b5-7eef6da7b7e4"
+      }
+    },
+    "4e00e064-d1d5-451a-8a18-a55b0fc73f52": {
+      "id": "4e00e064-d1d5-451a-8a18-a55b0fc73f52",
+      "args": {
+        "actorId": "d0aa92da-b3cd-433d-b0b5-7eef6da7b7e4"
+      }
+    },
+    "2e6868c0-611d-40de-ba3b-d5f3c6cb2998": {
+      "id": "2e6868c0-611d-40de-ba3b-d5f3c6cb2998",
+      "args": {
+        "text": [
+          "I'm covered in \nbird shit, nasty!!"
+        ]
+      }
+    },
+    "4be0768f-251b-4f1b-b576-eb12d7b50b8b": {
+      "id": "4be0768f-251b-4f1b-b576-eb12d7b50b8b",
+      "args": {
+        "spriteSheetId": "4955cc1a-13a9-4faf-b630-ebe284979bdc",
+        "actorId": "d0aa92da-b3cd-433d-b0b5-7eef6da7b7e4"
+      }
     }
   },
   "symbol": "actor_27",
@@ -155,7 +193,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 15,
+  "x": 18,
+  "y": 18,
   "_index": 0
 }

@@ -32,6 +32,14 @@
       "id": "29b6e422-7fc7-49fb-9a2d-d62be2927513"
     },
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "91ff772d-a062-4d87-a275-afc9ce595548",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "ce352c2b-b4a0-41e2-bdf2-cd75523fb042"
+    },
+    {
       "command": "EVENT_SCENE_POP_ALL_STATE",
       "args": {
         "fadeSpeed": "2"

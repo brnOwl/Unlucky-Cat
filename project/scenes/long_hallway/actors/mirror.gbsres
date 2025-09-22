@@ -81,7 +81,7 @@
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 14
         },
         "direction": "",
         "fadeSpeed": "2"
@@ -94,7 +94,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
+  "x": 3,
   "y": 11,
   "_index": 1
 }

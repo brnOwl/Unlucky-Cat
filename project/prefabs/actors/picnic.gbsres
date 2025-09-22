@@ -4,7 +4,7 @@
   "name": "Picnic",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "2e1f9215-12e9-4184-a6b9-32e31f97da12",
+  "spriteSheetId": "8ce69b4a-d40e-4515-999a-ce2d9976e7d7",
   "moveSpeed": 1,
   "animSpeed": 255,
   "paletteId": "",
@@ -45,7 +45,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "379ff69d-2a75-483a-961e-8406174e53b9"
           }
@@ -83,7 +83,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "fce3179d-c265-4452-8439-59bc79fd544e"
           },
@@ -185,6 +185,62 @@
             "id": "c9c7788f-5ca4-42a1-9dc0-c1ecc56af43c"
           },
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8"
+            },
+            "id": "4be0768f-251b-4f1b-b576-eb12d7b50b8b"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "4e00e064-d1d5-451a-8a18-a55b0fc73f52"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2e6868c0-611d-40de-ba3b-d5f3c6cb2998"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "150601ab-745b-4e01-8d47-d26d9ca1d44c"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
@@ -223,7 +279,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7df262bf-756c-493a-9f9f-e1c5166b15a3"
           },

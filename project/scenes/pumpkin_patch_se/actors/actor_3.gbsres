@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "df4d15a7-fb09-49ed-b833-8b82adc47bfe",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2e08e4d6-9464-43b0-990c-7ba0b5d66499",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_97",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"This pumpkin\npatch is dedicated",
+          "to all the \naggressive crabs",
+          "that fought and\ndied for our",
+          "entertainment.\"",
+          "Cool, love me some\naggro crabs."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "32a1faf3-0459-46c6-a45c-2452bff21ff2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 3,
+  "_index": 13
+}

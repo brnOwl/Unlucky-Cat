@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f2d+002a+0f2+002b+0f!002b+0f!002b+0f!007+0fe+0016+0f!007+0fe+00d+0f4+005+0f!007+0fe+00d+0f5+004+0f!007+0fe+004+0fe+004+0f!007+0fe+0010+0f2+004+0f!007+0fe+0016+0f!002b+0f!003+0f2+0026+0f!003+0f2+0026+0f!002b+0f!001d+0f2+00c+0f!003+0f!0019+0f2+00c+0f!001d+0f2+00c+0f!001d+0f2+00c+0f!002b+0f!002b+0f!002b+",
+  "collisions": "0f2d+002a+0f2+002b+0f!002b+0f!002b+0f!007+0fe+0016+0f!007+0fe+00d+0f4+005+0f!007+0fe+00d+0f5+004+0f!007+0fe+004+0fe+004+0f!007+0fe+0010+0f2+004+0f!007+0fe+0016+0f!007+0f!00c+0f!0016+0f!003+0f2+002+0f!00c+0f!0016+0f!003+0f2+0026+0f!002b+0f!001d+0f2+00c+0f!003+0f!0019+0f2+00c+0f!001d+0f2+00c+0f!001d+0f2+00c+0f!002b+0f!002b+0f!002b+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 2061.454606197138,
-  "y": 616.0000206409807,
+  "x": 2064,
+  "y": 616,
   "script": [
     {
       "command": "EVENT_IF",
@@ -33,8 +33,8 @@
             }
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -63,6 +63,13 @@
               }
             },
             "id": "9a21734c-7b4e-48c7-a415-ade8027354e8"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "cd8098c8-27bf-4f39-bea4-9295cad0e59b"
+            },
+            "id": "0d8a3f9e-df5f-492e-b9af-98048346d2c5"
           }
         ],
         "false": []
@@ -76,8 +83,8 @@
           "type": "variable",
           "value": "13"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -110,8 +117,8 @@
             "value": "12"
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -138,6 +145,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "playerSpriteSheetId": "4216ec28-bf6e-4449-9293-4ff21fb87393",
   "labelColor": "red"
 }

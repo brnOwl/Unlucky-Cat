@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "efa859c8-2d66-4669-8905-ac94c16c7582",
+  "name": "BG_TitleCard",
+  "symbol": "bg_bg_titlecard",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "BG_TitleCard.png",
+  "tileColors": ""
+}

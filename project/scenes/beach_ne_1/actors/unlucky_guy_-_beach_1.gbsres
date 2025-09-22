@@ -250,7 +250,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm unlucky huh"
+                "I'm unlucky huh?\n:3"
               ],
               "__section": "text",
               "avatarId": "",
@@ -282,7 +282,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 23,
+  "x": 24,
   "y": 15,
   "_index": 2
 }

@@ -4,7 +4,7 @@
   "name": "Car",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "6c0054f2-4ebe-45b7-9154-fe933f315514",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -67,12 +67,17 @@
             "id": "319b0761-2b03-4839-8c5e-30074818f837"
           },
           {
-            "command": "EVENT_WAIT",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "time": 0.5,
-              "frames": 30
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
             },
-            "id": "0646d32f-7f65-405f-8b3c-878784ae39b3"
+            "id": "bef66969-9b38-4b1f-b690-f652a8878021"
           },
           {
             "command": "EVENT_TEXT",

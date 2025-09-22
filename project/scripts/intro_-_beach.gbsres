@@ -35,7 +35,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Another day, \nanother misfortune"
+                "Another day-",
+                "Another \nmisfortune."
               ],
               "__section": "text",
               "avatarId": "",
@@ -55,6 +56,14 @@
               "closeDelayFrames": 30
             },
             "id": "12867d8d-441e-44b1-8e20-8b3bbb793782"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+            },
+            "id": "c6d2e478-594e-4981-b223-265feb9df906"
           }
         ],
         "false": []

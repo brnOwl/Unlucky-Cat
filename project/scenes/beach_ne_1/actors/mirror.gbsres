@@ -17,6 +17,32 @@
   "symbol": "actor_26",
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Nice, all done\nhere!:3",
+          "Time to head back,\nthen..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c19c4374-2782-47fb-b31e-c4c42f46b0af"
+    },
+    {
       "command": "EVENT_MUSIC_STOP",
       "args": {
         "__collapse": true
@@ -26,7 +52,7 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
+        "time": 0.3,
         "frames": 30
       },
       "id": "8709a0dc-983b-48e0-b443-bbdce31caa4c"

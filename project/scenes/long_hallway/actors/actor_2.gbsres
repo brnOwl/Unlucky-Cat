@@ -1,0 +1,86 @@
+{
+  "_resourceType": "actor",
+  "id": "7ac7a314-cbb3-443b-a053-9f725f6857d8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ad738ea9-7c3f-4da9-bfa4-cde047b35be7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_93",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh, my beautiful\nBAD LUCK CHARM...",
+          "So good to see you\nagain..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4599521b-b061-4b7a-9abe-13f0b481d493"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "cf53360b-ff72-4078-9f07-e613acfd2cfc"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "8483c2a1-e771-4621-95ed-19cc455f70bd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f907e54a-6189-4888-a044-d59c9b542235",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "286e5be8-3b67-4ff3-9282-00036249057f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 11,
+  "_index": 2
+}

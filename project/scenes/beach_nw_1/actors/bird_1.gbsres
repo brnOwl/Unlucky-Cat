@@ -177,7 +177,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The take off!"
+                "They take off!"
               ],
               "__section": "text",
               "avatarId": "",

@@ -40,7 +40,7 @@
             "args": {
               "text": [
                 "They're not \nmotivated by",
-                "anything but food"
+                "anything but food,\nhuh..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -69,7 +69,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "They must smell\nfood nearby..."
+                "Yess, smell the\ntrash!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -179,7 +179,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "They take off!"
+                "Fly, my pretties!"
               ],
               "__section": "text",
               "avatarId": "",

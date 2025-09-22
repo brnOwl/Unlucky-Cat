@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b1ed2e78-b9e5-4dab-a077-7f0e31db0955",
-  "_index": 19,
+  "_index": 16,
   "name": "Pumpkin kicking scene",
   "backgroundId": "bd1c0f65-f230-4bdc-8689-43198851b96a",
   "tilesetId": "",
@@ -37,6 +37,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "playerSpriteSheetId": "4216ec28-bf6e-4449-9293-4ff21fb87393",
   "labelColor": "blue"
 }

@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f2d+002a+0f!002b+0f!001e+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+0010+0f!0022+0f2+007+0f!0022+0f2+007+0f!0020+0f2+009+0f!002b+0f!002b+0f!002b+0f!0014+0f2+006+0f2+00d+0f!0014+0f2+006+0f2+00d+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!002b+0f!",
+  "collisions": "0f2d+002a+0f!002b+0f!001e+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+003+0f2+00b+0f!00d+0f4+006+0f4+0010+0f!0022+0f2+007+0f!0022+0f2+007+0f!0020+0f4+007+0f!0022+0f2+007+0f!002b+0f!002b+0f!0014+0f2+006+0f2+00d+0f!0014+0f2+006+0f2+00d+0f!0014+0f2+006+0f2+00d+0f!0014+0f2+006+0f2+00d+0f!002b+0f!002b+0f!002b+0f!002b+0f!",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
   "x": 2424,
@@ -49,7 +49,7 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "938dc1ae-466a-4cb2-b7d3-61468b8648ab"
             },
             "id": "0b74341f-5966-4aa8-8b2c-d493bd6b2c9d"
           }
@@ -65,8 +65,8 @@
           "type": "variable",
           "value": "19"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -89,7 +89,7 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "0ca88936-ef43-442f-98a4-a44b0ae04722"
             },
             "id": "ba188c21-4f22-43ff-b8f7-a2ce63e3f7ca"
           }
@@ -105,7 +105,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "5dc7bf08-7225-420f-959d-afe879f3d772"
     },
@@ -117,7 +117,7 @@
           "value": "20"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -137,6 +137,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "playerSpriteSheetId": "4216ec28-bf6e-4449-9293-4ff21fb87393",
   "labelColor": "red"
 }

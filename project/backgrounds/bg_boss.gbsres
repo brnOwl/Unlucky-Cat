@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "79f5709f-6234-4e83-b58c-725e4a82557b",
+  "name": "BG_Boss",
+  "symbol": "bg_bg_boss",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "BG_Boss.png",
+  "tileColors": ""
+}

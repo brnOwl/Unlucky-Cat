@@ -32,6 +32,32 @@
       "id": "ff7cd150-ec49-4f53-83db-653adfa395df"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The ocean has\nclaimed his things",
+          ";3 what are the\nodds..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "830ab085-37ca-4ab7-8860-bdb8fbae33ac"
+    },
+    {
       "command": "EVENT_SCENE_POP_ALL_STATE",
       "args": {
         "fadeSpeed": "2"

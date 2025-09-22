@@ -4,7 +4,7 @@
   "name": "Date",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "117995cd-6fea-4d39-b0c2-d0223138f94b",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -91,7 +91,8 @@
             "args": {
               "text": [
                 "Who is this?????\nYou've got to be",
-                "joking."
+                "joking. That \nabsolute manwhore",
+                "who does he think\nhe is??"
               ],
               "__section": "text",
               "avatarId": "",

@@ -4,7 +4,7 @@
   "name": "animal 3",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "03394421-6bfa-47b3-98e8-8e989a057144",
+  "spriteSheetId": "abd295c9-db68-4073-aed0-3beeed3585d9",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "*munch* *munch*"
+          "holy fuck this\nrules"
         ],
         "__section": "text",
         "avatarId": "",
@@ -47,7 +47,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 31,
-  "y": 9,
+  "x": 34,
+  "y": 13,
   "_index": 7
 }

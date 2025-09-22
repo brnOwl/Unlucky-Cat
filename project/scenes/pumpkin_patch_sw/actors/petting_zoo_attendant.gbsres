@@ -4,7 +4,7 @@
   "name": "petting zoo attendant",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "9c3a23a3-4106-46b0-8fee-ae4b928b11a8",
+  "spriteSheetId": "f72d4635-603d-4e74-8f32-8441f0742d52",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,51 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_43",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hi, kitty. Boy,\nI wish I was",
+                "gardening instead\nof watching these",
+                "stupid animals.\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "587affad-a3e5-42e4-8052-c7a3feb943e6"
+          }
+        ]
+      },
+      "id": "4720254d-34cb-4099-b1a9-7a17258c3c11"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

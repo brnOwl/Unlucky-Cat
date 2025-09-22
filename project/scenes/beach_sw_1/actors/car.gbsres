@@ -48,7 +48,8 @@
       "id": "319b0761-2b03-4839-8c5e-30074818f837",
       "args": {
         "text": [
-          "You lightly\ntouch the car"
+          "*You very gently \nlaw a single paw",
+          "on the hood of \nof the car.*"
         ]
       }
     },
@@ -56,7 +57,7 @@
       "id": "25931296-b52f-43f6-a8cb-062926f8e164",
       "args": {
         "text": [
-          "The car alarm\ngoes off"
+          "Oops, there goes \nthe car alarm! @u@"
         ]
       }
     },
@@ -72,7 +73,7 @@
       "id": "0b3e7483-5712-40aa-bf37-45c0d7532e88",
       "args": {
         "text": [
-          "This car is making\nloud noises"
+          "This car sure is\nmaking big noises"
         ]
       }
     }
